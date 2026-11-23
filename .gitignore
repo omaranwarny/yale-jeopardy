@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+data/spend.json
+data/games_log.jsonl
+.DS_Store
+
+data/classroom.db
+bench/materials/

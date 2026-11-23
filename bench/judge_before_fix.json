@@ -1,0 +1,5 @@
+{"note": "Judge study from the benchmark run on 2026-11-22 BEFORE the judge fix (same 311 labeled answers, gpt-5.6-luna). Copied from the console output of scripts/benchmark.py; that results.json was overwritten by the next run.",
+ "code_only": {"accuracy_pct": 95.8, "false_accepts": 13, "ai_calls": 0, "cost_usd": 0.0},
+ "hybrid": {"accuracy_pct": 95.8, "false_accepts": 13, "ai_calls": 24, "cost_usd": 0.00144},
+ "ai_every_answer": {"accuracy_pct": 100.0, "false_accepts": 0, "ai_calls": 311, "cost_usd": 0.01712},
+ "examples_wrongly_accepted": ["Harkness Library (for Harkness Tower)", "West Rock (for East Rock)", "Pierpont Apizza (for Pierpont House)", "Erector X (for Erector set)", "Yale Center for British Nursing (for ... British Art)"]}

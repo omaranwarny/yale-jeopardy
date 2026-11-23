@@ -1,0 +1,1700 @@
+{
+ "title": "Yale University",
+ "categories": [
+  {
+   "name": "Founding & Firsts",
+   "clues": [
+    {
+     "id": "founding-fir-01",
+     "category": "Founding & Firsts",
+     "difficulty": 1,
+     "clue": "The Connecticut legislature chartered Yale in this year, making it the nation's third-oldest institution of higher education.",
+     "answer": "1701",
+     "accept": [
+      "1701",
+      "October 9, 1701"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-02",
+     "category": "Founding & Firsts",
+     "difficulty": 1,
+     "clue": "The college was renamed in 1718 for this Welsh merchant who donated nine bales of goods, 417 books and a portrait of King George I.",
+     "answer": "Elihu Yale",
+     "accept": [
+      "Elihu Yale",
+      "Yale"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-03",
+     "category": "Founding & Firsts",
+     "difficulty": 2,
+     "clue": "Before it took the name Yale College, the school chartered in 1701 went by this name.",
+     "answer": "Collegiate School",
+     "accept": [
+      "Collegiate School",
+      "The Collegiate School"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-04",
+     "category": "Founding & Firsts",
+     "difficulty": 2,
+     "clue": "In 1716 the trustees voted to move the school from this shoreline town to New Haven.",
+     "answer": "Saybrook",
+     "accept": [
+      "Saybrook",
+      "Old Saybrook"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-05",
+     "category": "Founding & Firsts",
+     "difficulty": 2,
+     "clue": "In 1861 Yale became the first university in the U.S. to award this degree.",
+     "answer": "Ph.D.",
+     "accept": [
+      "Ph.D.",
+      "PhD",
+      "doctorate",
+      "Doctor of Philosophy"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-06",
+     "category": "Founding & Firsts",
+     "difficulty": 3,
+     "clue": "Opened in 1832 with John Trumbull's paintings, it was the first college art museum in the Western Hemisphere.",
+     "answer": "Yale University Art Gallery",
+     "accept": [
+      "Yale University Art Gallery",
+      "Art Gallery",
+      "YUAG",
+      "Trumbull Gallery"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-07",
+     "category": "Founding & Firsts",
+     "difficulty": 3,
+     "clue": "In 1802 Benjamin Silliman taught the first modern course in this science in the United States.",
+     "answer": "chemistry",
+     "accept": [
+      "chemistry"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-08",
+     "category": "Founding & Firsts",
+     "difficulty": 3,
+     "clue": "In 1792 John Trumbull and James Hillhouse designed this row of buildings, making Yale the first planned college campus in America.",
+     "answer": "Brick Row",
+     "accept": [
+      "Brick Row",
+      "the Brick Row"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-09",
+     "category": "Founding & Firsts",
+     "difficulty": 3,
+     "clue": "Yale College first admitted women as undergraduates in this year.",
+     "answer": "1969",
+     "accept": [
+      "1969",
+      "fall 1969"
+     ],
+     "source": "https://news.yale.edu/2019/09/16/time-turmoil-triumph-50-years-coeducation-yale-college"
+    },
+    {
+     "id": "founding-fir-10",
+     "category": "Founding & Firsts",
+     "difficulty": 4,
+     "clue": "Opened in 1869, this was the first Yale school open to women, who made up most of its students for four decades.",
+     "answer": "School of the Fine Arts",
+     "accept": [
+      "School of the Fine Arts",
+      "Yale School of Fine Arts",
+      "Fine Arts"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-11",
+     "category": "Founding & Firsts",
+     "difficulty": 4,
+     "clue": "Established in 1732, these grants for graduate study, named for a bishop, were the first such scholarships in America.",
+     "answer": "Berkeley Scholarships",
+     "accept": [
+      "Berkeley Scholarships",
+      "Berkeley Scholarship"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "founding-fir-12",
+     "category": "Founding & Firsts",
+     "difficulty": 4,
+     "clue": "Elihu Yale built the fortune behind his gift in this Indian city.",
+     "answer": "Madras",
+     "accept": [
+      "Madras",
+      "Chennai"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_University"
+    },
+    {
+     "id": "founding-fir-13",
+     "category": "Founding & Firsts",
+     "difficulty": 5,
+     "clue": "This Puritan minister asked Elihu Yale for money and then suggested the school be named \"Yale College.\"",
+     "answer": "Cotton Mather",
+     "accept": [
+      "Cotton Mather",
+      "Mather"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_University"
+    },
+    {
+     "id": "founding-fir-14",
+     "category": "Founding & Firsts",
+     "difficulty": 5,
+     "clue": "In 1779 this Yale graduate, secretary to the British general, persuaded the British to leave New Haven without burning it.",
+     "answer": "Edmund Fanning",
+     "accept": [
+      "Edmund Fanning",
+      "Fanning"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    }
+   ]
+  },
+  {
+   "name": "Famous Elis",
+   "clues": [
+    {
+     "id": "famous-elis-01",
+     "category": "Famous Elis",
+     "difficulty": 1,
+     "clue": "This Yale graduate of 1878 became the 27th U.S. president and later the 10th chief justice.",
+     "answer": "William Howard Taft",
+     "accept": [
+      "William Howard Taft",
+      "Taft",
+      "William Taft"
+     ],
+     "source": "https://www.britannica.com/biography/William-Howard-Taft"
+    },
+    {
+     "id": "famous-elis-02",
+     "category": "Famous Elis",
+     "difficulty": 1,
+     "clue": "In her senior year at Yale, she won the national competition to design the Vietnam Veterans Memorial.",
+     "answer": "Maya Lin",
+     "accept": [
+      "Maya Lin",
+      "Lin"
+     ],
+     "source": "https://www.britannica.com/biography/Maya-Lin"
+    },
+    {
+     "id": "famous-elis-03",
+     "category": "Famous Elis",
+     "difficulty": 1,
+     "clue": "This record-setting Oscar nominee earned her MFA from Yale's drama program in 1975.",
+     "answer": "Meryl Streep",
+     "accept": [
+      "Meryl Streep",
+      "Streep"
+     ],
+     "source": "https://www.britannica.com/biography/Meryl-Streep"
+    },
+    {
+     "id": "famous-elis-04",
+     "category": "Famous Elis",
+     "difficulty": 1,
+     "clue": "This Revolutionary War spy from the class of 1773 is said to have regretted having \"but one life to lose for my country.\"",
+     "answer": "Nathan Hale",
+     "accept": [
+      "Nathan Hale",
+      "Hale"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Nathan_Hale"
+    },
+    {
+     "id": "famous-elis-05",
+     "category": "Famous Elis",
+     "difficulty": 2,
+     "clue": "This Yale graduate of 1810 sent the telegraph message \"What hath God wrought!\" in 1844.",
+     "answer": "Samuel Morse",
+     "accept": [
+      "Samuel Morse",
+      "Morse",
+      "Samuel F. B. Morse"
+     ],
+     "source": "https://www.britannica.com/biography/Samuel-F-B-Morse"
+    },
+    {
+     "id": "famous-elis-06",
+     "category": "Famous Elis",
+     "difficulty": 2,
+     "clue": "Yale-educated, he published \"An American Dictionary of the English Language\" in 1828.",
+     "answer": "Noah Webster",
+     "accept": [
+      "Noah Webster",
+      "Webster"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Noah_Webster"
+    },
+    {
+     "id": "famous-elis-07",
+     "category": "Famous Elis",
+     "difficulty": 2,
+     "clue": "As a Yale economics student he wrote a paper on overnight delivery, and in 1971 he founded Federal Express.",
+     "answer": "Fred Smith",
+     "accept": [
+      "Fred Smith",
+      "Frederick Smith",
+      "Frederick W. Smith"
+     ],
+     "source": "https://www.britannica.com/biography/Frederick-W-Smith"
+    },
+    {
+     "id": "famous-elis-08",
+     "category": "Famous Elis",
+     "difficulty": 2,
+     "clue": "The first Hispanic Supreme Court justice earned her J.D. at Yale Law School in 1979.",
+     "answer": "Sonia Sotomayor",
+     "accept": [
+      "Sonia Sotomayor",
+      "Sotomayor"
+     ],
+     "source": "https://www.supremecourt.gov/about/biographies.aspx"
+    },
+    {
+     "id": "famous-elis-09",
+     "category": "Famous Elis",
+     "difficulty": 2,
+     "clue": "This Yale School of Drama graduate won an Oscar for her first feature film, \"12 Years a Slave.\"",
+     "answer": "Lupita Nyong'o",
+     "accept": [
+      "Lupita Nyong'o",
+      "Nyong'o",
+      "Lupita Nyongo"
+     ],
+     "source": "https://www.britannica.com/biography/Lupita-Nyongo"
+    },
+    {
+     "id": "famous-elis-10",
+     "category": "Famous Elis",
+     "difficulty": 3,
+     "clue": "This 1920 graduate is the only person to win Pulitzer Prizes for both fiction and drama.",
+     "answer": "Thornton Wilder",
+     "accept": [
+      "Thornton Wilder",
+      "Wilder"
+     ],
+     "source": "https://www.britannica.com/biography/Thornton-Wilder"
+    },
+    {
+     "id": "famous-elis-11",
+     "category": "Famous Elis",
+     "difficulty": 3,
+     "clue": "This computing pioneer and Navy rear admiral earned a Yale Ph.D. in mathematics in 1934 and has a residential college named for her.",
+     "answer": "Grace Hopper",
+     "accept": [
+      "Grace Hopper",
+      "Grace Murray Hopper",
+      "Hopper"
+     ],
+     "source": "https://www.britannica.com/biography/Grace-Hopper"
+    },
+    {
+     "id": "famous-elis-12",
+     "category": "Famous Elis",
+     "difficulty": 3,
+     "clue": "In 1854 he became the first Chinese student to graduate from an American university.",
+     "answer": "Yung Wing",
+     "accept": [
+      "Yung Wing",
+      "Rong Hong"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "famous-elis-13",
+     "category": "Famous Elis",
+     "difficulty": 3,
+     "clue": "This author of \"Main Street\" and \"Babbitt\" won the 1930 Nobel Prize in Literature.",
+     "answer": "Sinclair Lewis",
+     "accept": [
+      "Sinclair Lewis",
+      "Lewis"
+     ],
+     "source": "https://www.nobelprize.org/prizes/literature/1930/lewis/biographical/"
+    },
+    {
+     "id": "famous-elis-14",
+     "category": "Famous Elis",
+     "difficulty": 3,
+     "clue": "In 1876 this New Haven native became the first African American to earn a Ph.D. in America, in physics.",
+     "answer": "Edward Bouchet",
+     "accept": [
+      "Edward Bouchet",
+      "Edward Alexander Bouchet",
+      "Bouchet"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "famous-elis-15",
+     "category": "Famous Elis",
+     "difficulty": 4,
+     "clue": "After starring in football at Michigan, this future 38th president earned a Yale law degree in 1941 while working as an assistant coach.",
+     "answer": "Gerald Ford",
+     "accept": [
+      "Gerald Ford",
+      "Ford",
+      "Jerry Ford"
+     ],
+     "source": "https://www.britannica.com/biography/Gerald-Ford"
+    },
+    {
+     "id": "famous-elis-16",
+     "category": "Famous Elis",
+     "difficulty": 4,
+     "clue": "Called the \"Father of the U.S. Forest Service,\" this 1889 graduate helped fund Yale's forestry school.",
+     "answer": "Gifford Pinchot",
+     "accept": [
+      "Gifford Pinchot",
+      "Pinchot"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "famous-elis-17",
+     "category": "Famous Elis",
+     "difficulty": 4,
+     "clue": "This Yale economist won the 2018 Nobel for building climate change into long-run economic models.",
+     "answer": "William Nordhaus",
+     "accept": [
+      "William Nordhaus",
+      "Nordhaus"
+     ],
+     "source": "https://www.nobelprize.org/prizes/economic-sciences/2018/nordhaus/facts/"
+    },
+    {
+     "id": "famous-elis-18",
+     "category": "Famous Elis",
+     "difficulty": 5,
+     "clue": "Awarded the first American engineering doctorate in 1863, this Yale physicist has a \"free energy\" named after him.",
+     "answer": "Josiah Willard Gibbs",
+     "accept": [
+      "Josiah Willard Gibbs",
+      "Willard Gibbs",
+      "J. Willard Gibbs",
+      "Gibbs"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs"
+    },
+    {
+     "id": "famous-elis-19",
+     "category": "Famous Elis",
+     "difficulty": 5,
+     "clue": "He earned his Yale Ph.D. in 1925, invented the cyclotron in 1929, and won the 1939 Nobel Prize in Physics.",
+     "answer": "Ernest Lawrence",
+     "accept": [
+      "Ernest Lawrence",
+      "Ernest O. Lawrence",
+      "Lawrence"
+     ],
+     "source": "https://www.nobelprize.org/prizes/physics/1939/lawrence/biographical/"
+    }
+   ]
+  },
+  {
+   "name": "Bulldog Nation",
+   "clues": [
+    {
+     "id": "bulldog-nati-01",
+     "category": "Bulldog Nation",
+     "difficulty": 1,
+     "clue": "Yale's bulldog mascot, first bought by a student for $5 in 1889, goes by this name.",
+     "answer": "Handsome Dan",
+     "accept": [
+      "Handsome Dan",
+      "Dan"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "bulldog-nati-02",
+     "category": "Bulldog Nation",
+     "difficulty": 1,
+     "clue": "Known as the \"Father of American Football,\" this Yale man introduced the down and the eleven-man team.",
+     "answer": "Walter Camp",
+     "accept": [
+      "Walter Camp",
+      "Camp"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "bulldog-nati-03",
+     "category": "Bulldog Nation",
+     "difficulty": 1,
+     "clue": "Opened in 1914, it was the first bowl-shaped stadium in the U.S.",
+     "answer": "Yale Bowl",
+     "accept": [
+      "Yale Bowl",
+      "the Bowl"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_Bowl"
+    },
+    {
+     "id": "bulldog-nati-04",
+     "category": "Bulldog Nation",
+     "difficulty": 2,
+     "clue": "Yale's football rivalry with this school, known simply as \"The Game,\" was first played in 1875.",
+     "answer": "Harvard",
+     "accept": [
+      "Harvard",
+      "Harvard University",
+      "Harvard Crimson"
+     ],
+     "source": "https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game"
+    },
+    {
+     "id": "bulldog-nati-05",
+     "category": "Bulldog Nation",
+     "difficulty": 2,
+     "clue": "The Yale Bowl inspired the design and name of this Pasadena stadium.",
+     "answer": "Rose Bowl",
+     "accept": [
+      "Rose Bowl",
+      "the Rose Bowl"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_Bowl"
+    },
+    {
+     "id": "bulldog-nati-06",
+     "category": "Bulldog Nation",
+     "difficulty": 2,
+     "clue": "In 2013 Yale won its first NCAA men's ice hockey title by beating this nearby Connecticut rival 4-0.",
+     "answer": "Quinnipiac",
+     "accept": [
+      "Quinnipiac",
+      "Quinnipiac University",
+      "Bobcats"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs"
+    },
+    {
+     "id": "bulldog-nati-07",
+     "category": "Bulldog Nation",
+     "difficulty": 2,
+     "clue": "Nicknamed \"The Whale,\" Yale's Ingalls Rink was designed by this Finnish-American architect.",
+     "answer": "Eero Saarinen",
+     "accept": [
+      "Eero Saarinen",
+      "Saarinen"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Ingalls_Rink"
+    },
+    {
+     "id": "bulldog-nati-08",
+     "category": "Bulldog Nation",
+     "difficulty": 2,
+     "clue": "First rowed in 1852, this Yale-Harvard race is America's oldest intercollegiate athletic competition.",
+     "answer": "Harvard-Yale Regatta",
+     "accept": [
+      "Harvard-Yale Regatta",
+      "Yale-Harvard Regatta",
+      "The Regatta",
+      "Yale-Harvard Boat Race"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Harvard%E2%80%93Yale_Regatta"
+    },
+    {
+     "id": "bulldog-nati-09",
+     "category": "Bulldog Nation",
+     "difficulty": 3,
+     "clue": "After a 1968 comeback tie, the Harvard Crimson ran this famously illogical headline.",
+     "answer": "Harvard Beats Yale 29-29",
+     "accept": [
+      "Harvard Beats Yale 29-29",
+      "Harvard beats Yale, 29-29"
+     ],
+     "source": "https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game"
+    },
+    {
+     "id": "bulldog-nati-10",
+     "category": "Bulldog Nation",
+     "difficulty": 3,
+     "clue": "Yale end Larry Kelley won this trophy in 1936, just its second year.",
+     "answer": "Heisman Trophy",
+     "accept": [
+      "Heisman Trophy",
+      "Heisman"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_Bulldogs_football"
+    },
+    {
+     "id": "bulldog-nati-11",
+     "category": "Bulldog Nation",
+     "difficulty": 3,
+     "clue": "This future baby-care author rowed in the Yale eight that won Olympic gold in Paris in 1924.",
+     "answer": "Benjamin Spock",
+     "accept": [
+      "Benjamin Spock",
+      "Dr. Spock",
+      "Spock"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Benjamin_Spock"
+    },
+    {
+     "id": "bulldog-nati-12",
+     "category": "Bulldog Nation",
+     "difficulty": 3,
+     "clue": "Yale won its first NCAA men's lacrosse title in 2018 by beating this ACC school 13-11.",
+     "answer": "Duke",
+     "accept": [
+      "Duke",
+      "Duke Blue Devils"
+     ],
+     "source": "https://yalebulldogs.com/news/2018/5/28/5_28_2018_6856.aspx"
+    },
+    {
+     "id": "bulldog-nati-13",
+     "category": "Bulldog Nation",
+     "difficulty": 3,
+     "clue": "This Gothic gym, nicknamed \"the cathedral of sweat,\" displays the stuffed original Handsome Dan near its entrance.",
+     "answer": "Payne Whitney Gymnasium",
+     "accept": [
+      "Payne Whitney Gymnasium",
+      "Payne Whitney Gym",
+      "Payne Whitney"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium"
+    },
+    {
+     "id": "bulldog-nati-14",
+     "category": "Bulldog Nation",
+     "difficulty": 4,
+     "clue": "At a football game in 1890, Yale introduced these crowd leaders, a first in college sports.",
+     "answer": "cheerleaders",
+     "accept": [
+      "cheerleaders",
+      "cheerleading",
+      "cheerleader"
+     ],
+     "source": "https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game"
+    },
+    {
+     "id": "bulldog-nati-15",
+     "category": "Bulldog Nation",
+     "difficulty": 4,
+     "clue": "Yale adopted blue as its color in 1894 after half a century of being associated with this other color.",
+     "answer": "green",
+     "accept": [
+      "green"
+     ],
+     "source": "https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game"
+    },
+    {
+     "id": "bulldog-nati-16",
+     "category": "Bulldog Nation",
+     "difficulty": 4,
+     "clue": "This NFL team played home games at the Yale Bowl in 1973 and 1974.",
+     "answer": "New York Giants",
+     "accept": [
+      "New York Giants",
+      "Giants",
+      "NY Giants"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_Bowl"
+    },
+    {
+     "id": "bulldog-nati-17",
+     "category": "Bulldog Nation",
+     "difficulty": 5,
+     "clue": "The first Harvard-Yale boat race, in 1852, was held on this New Hampshire lake.",
+     "answer": "Lake Winnipesaukee",
+     "accept": [
+      "Lake Winnipesaukee",
+      "Winnipesaukee"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Harvard%E2%80%93Yale_Regatta"
+    },
+    {
+     "id": "bulldog-nati-18",
+     "category": "Bulldog Nation",
+     "difficulty": 5,
+     "clue": "The current Handsome Dan, number XIX, is named for this former Yale president.",
+     "answer": "Kingman Brewster",
+     "accept": [
+      "Kingman Brewster",
+      "Kingman",
+      "Brewster"
+     ],
+     "source": "https://visitorcenter.yale.edu/handsome-dan"
+    }
+   ]
+  },
+  {
+   "name": "Gothic & Granite",
+   "clues": [
+    {
+     "id": "gothic-grani-01",
+     "category": "Gothic & Granite",
+     "difficulty": 1,
+     "clue": "This 216-foot Collegiate Gothic tower got one foot of height for each year since Yale's founding.",
+     "answer": "Harkness Tower",
+     "accept": [
+      "Harkness Tower",
+      "Harkness Memorial Tower",
+      "Harkness"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Harkness_Tower"
+    },
+    {
+     "id": "gothic-grani-02",
+     "category": "Gothic & Granite",
+     "difficulty": 1,
+     "clue": "Built of translucent marble panes framed in granite, this library opened in 1963 to hold rare books and manuscripts.",
+     "answer": "Beinecke Rare Book and Manuscript Library",
+     "accept": [
+      "Beinecke Rare Book and Manuscript Library",
+      "Beinecke",
+      "Beinecke Library"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "gothic-grani-03",
+     "category": "Gothic & Granite",
+     "difficulty": 1,
+     "clue": "The Beinecke displays one of the 48 surviving copies of this 15th-century printed book.",
+     "answer": "Gutenberg Bible",
+     "accept": [
+      "Gutenberg Bible",
+      "the Gutenberg Bible",
+      "Gutenberg"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Beinecke_Rare_Book_%26_Manuscript_Library"
+    },
+    {
+     "id": "gothic-grani-04",
+     "category": "Gothic & Granite",
+     "difficulty": 2,
+     "clue": "Begun in 1750, it is the oldest building in New Haven and the only surviving colonial building at Yale.",
+     "answer": "Connecticut Hall",
+     "accept": [
+      "Connecticut Hall",
+      "Conn Hall"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "gothic-grani-05",
+     "category": "Gothic & Granite",
+     "difficulty": 2,
+     "clue": "Designed by James Gamble Rogers to echo a cathedral, this main library was completed in 1930.",
+     "answer": "Sterling Memorial Library",
+     "accept": [
+      "Sterling Memorial Library",
+      "Sterling",
+      "Sterling Library"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "gothic-grani-06",
+     "category": "Gothic & Granite",
+     "difficulty": 2,
+     "clue": "Catalogued as Beinecke MS 408, this undeciphered illustrated codex is named for a book dealer.",
+     "answer": "Voynich manuscript",
+     "accept": [
+      "Voynich manuscript",
+      "Voynich"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "id": "gothic-grani-07",
+     "category": "Gothic & Granite",
+     "difficulty": 2,
+     "clue": "The Peabody's dinosaur hall is centered on this \"thunder lizard\" sauropod.",
+     "answer": "Brontosaurus",
+     "accept": [
+      "Brontosaurus",
+      "Apatosaurus"
+     ],
+     "source": "https://news.yale.edu/2024/03/26/inspiring-wonder-again-peabody-museum-reopens"
+    },
+    {
+     "id": "gothic-grani-08",
+     "category": "Gothic & Granite",
+     "difficulty": 2,
+     "clue": "First-year students live in this 4-acre quadrangle, which also hosts Commencement.",
+     "answer": "Old Campus",
+     "accept": [
+      "Old Campus",
+      "the Old Campus"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Old_Campus_(Yale_University)"
+    },
+    {
+     "id": "gothic-grani-09",
+     "category": "Gothic & Granite",
+     "difficulty": 3,
+     "clue": "Harkness Tower holds this 54-bell instrument, played daily by students.",
+     "answer": "carillon",
+     "accept": [
+      "carillon",
+      "Yale Memorial Carillon"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "gothic-grani-10",
+     "category": "Gothic & Granite",
+     "difficulty": 3,
+     "clue": "This architect's 1953 Art Gallery building was the first modernist building at Yale; he later designed the Center for British Art.",
+     "answer": "Louis Kahn",
+     "accept": [
+      "Louis Kahn",
+      "Louis I. Kahn",
+      "Kahn"
+     ],
+     "source": "https://artgallery.yale.edu/about/architecture"
+    },
+    {
+     "id": "gothic-grani-11",
+     "category": "Gothic & Granite",
+     "difficulty": 3,
+     "clue": "Maya Lin's 1993 sculpture in front of Sterling Library spirals with numbers of women enrolled at Yale each year.",
+     "answer": "The Women's Table",
+     "accept": [
+      "The Women's Table",
+      "Women's Table"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Women%27s_Table"
+    },
+    {
+     "id": "gothic-grani-12",
+     "category": "Gothic & Granite",
+     "difficulty": 3,
+     "clue": "This gateway in Phelps Hall is the main entrance to Old Campus from the New Haven Green.",
+     "answer": "Phelps Gate",
+     "accept": [
+      "Phelps Gate",
+      "Phelps Hall"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Old_Campus_(Yale_University)"
+    },
+    {
+     "id": "gothic-grani-13",
+     "category": "Gothic & Granite",
+     "difficulty": 4,
+     "clue": "This artist spent five years painting the Peabody's 110-foot mural \"The Age of Reptiles,\" finished in 1947.",
+     "answer": "Rudolph Zallinger",
+     "accept": [
+      "Rudolph Zallinger",
+      "Zallinger"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Age_of_Reptiles"
+    },
+    {
+     "id": "gothic-grani-14",
+     "category": "Gothic & Granite",
+     "difficulty": 4,
+     "clue": "The underground Bass Library was built beneath this lawn so the view of Sterling's facade would stay open.",
+     "answer": "Cross Campus",
+     "accept": [
+      "Cross Campus"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Bass_Library"
+    },
+    {
+     "id": "gothic-grani-15",
+     "category": "Gothic & Granite",
+     "difficulty": 4,
+     "clue": "This Japanese-American artist designed the sunken marble sculpture garden beside the Beinecke, with a pyramid, a disc and a cube.",
+     "answer": "Isamu Noguchi",
+     "accept": [
+      "Isamu Noguchi",
+      "Noguchi"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Beinecke_Rare_Book_%26_Manuscript_Library"
+    },
+    {
+     "id": "gothic-grani-16",
+     "category": "Gothic & Granite",
+     "difficulty": 5,
+     "clue": "Eero Saarinen designed these two angular residential colleges as a reinvention of a Tuscan village.",
+     "answer": "Morse and Ezra Stiles",
+     "accept": [
+      "Morse and Ezra Stiles",
+      "Morse",
+      "Ezra Stiles",
+      "Stiles"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Residential_colleges_of_Yale_University"
+    },
+    {
+     "id": "gothic-grani-17",
+     "category": "Gothic & Granite",
+     "difficulty": 5,
+     "clue": "The Stump tower of St Botolph's Church in this English town inspired Harkness Tower.",
+     "answer": "Boston, Lincolnshire",
+     "accept": [
+      "Boston, Lincolnshire",
+      "Boston"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Harkness_Tower"
+    }
+   ]
+  },
+  {
+   "name": "The Elm City",
+   "clues": [
+    {
+     "id": "the-elm-city-01",
+     "category": "The Elm City",
+     "difficulty": 1,
+     "clue": "Yale's home city of New Haven sits in this U.S. state.",
+     "answer": "Connecticut",
+     "accept": [
+      "Connecticut",
+      "CT"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "the-elm-city-02",
+     "category": "The Elm City",
+     "difficulty": 1,
+     "clue": "New Haven's harbor opens onto this arm of the Atlantic.",
+     "answer": "Long Island Sound",
+     "accept": [
+      "Long Island Sound",
+      "the Sound"
+     ],
+     "source": "https://en.wikipedia.org/wiki/New_Haven_Harbor"
+    },
+    {
+     "id": "the-elm-city-03",
+     "category": "The Elm City",
+     "difficulty": 1,
+     "clue": "The famous Louis' Lunch hamburger is served on toast and never with this condiment.",
+     "answer": "ketchup",
+     "accept": [
+      "ketchup",
+      "catsup"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Louis%27_Lunch"
+    },
+    {
+     "id": "the-elm-city-04",
+     "category": "The Elm City",
+     "difficulty": 2,
+     "clue": "This 16-acre park was the central square of the colonists' nine-square town plan of 1638.",
+     "answer": "New Haven Green",
+     "accept": [
+      "New Haven Green",
+      "the Green"
+     ],
+     "source": "https://en.wikipedia.org/wiki/New_Haven_Green"
+    },
+    {
+     "id": "the-elm-city-05",
+     "category": "The Elm City",
+     "difficulty": 2,
+     "clue": "The trees that once lined the Green gave New Haven this nickname.",
+     "answer": "Elm City",
+     "accept": [
+      "Elm City",
+      "The Elm City"
+     ],
+     "source": "https://en.wikipedia.org/wiki/New_Haven_Green"
+    },
+    {
+     "id": "the-elm-city-06",
+     "category": "The Elm City",
+     "difficulty": 2,
+     "clue": "New Haven's thin-crust, coal-oven pizza goes by this local name.",
+     "answer": "apizza",
+     "accept": [
+      "apizza",
+      "ah-beetz"
+     ],
+     "source": "https://en.wikipedia.org/wiki/New_Haven-style_pizza"
+    },
+    {
+     "id": "the-elm-city-07",
+     "category": "The Elm City",
+     "difficulty": 2,
+     "clue": "The Library of Congress credits this Crown Street spot with serving the first hamburger in 1900.",
+     "answer": "Louis' Lunch",
+     "accept": [
+      "Louis' Lunch",
+      "Louis Lunch"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Louis%27_Lunch"
+    },
+    {
+     "id": "the-elm-city-08",
+     "category": "The Elm City",
+     "difficulty": 2,
+     "clue": "Opened on Wooster Street in 1925, this pizzeria created the white clam pie.",
+     "answer": "Frank Pepe Pizzeria Napoletana",
+     "accept": [
+      "Frank Pepe Pizzeria Napoletana",
+      "Pepe's",
+      "Frank Pepe's"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana"
+    },
+    {
+     "id": "the-elm-city-09",
+     "category": "The Elm City",
+     "difficulty": 3,
+     "clue": "Pepe's longtime Wooster Street rival was opened in 1938 by Frank Pepe's nephew.",
+     "answer": "Sally's Apizza",
+     "accept": [
+      "Sally's Apizza",
+      "Sally's"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana"
+    },
+    {
+     "id": "the-elm-city-10",
+     "category": "The Elm City",
+     "difficulty": 3,
+     "clue": "The Soldiers' and Sailors' Monument tops this ridge, whose park overlooks the city and the Sound.",
+     "answer": "East Rock",
+     "accept": [
+      "East Rock",
+      "East Rock Park"
+     ],
+     "source": "https://en.wikipedia.org/wiki/East_Rock_Park"
+    },
+    {
+     "id": "the-elm-city-11",
+     "category": "The Elm City",
+     "difficulty": 3,
+     "clue": "Founded in 1796 and resting place of many Yale presidents, it's called the first private nonprofit cemetery.",
+     "answer": "Grove Street Cemetery",
+     "accept": [
+      "Grove Street Cemetery",
+      "Grove Street"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grove_Street_Cemetery"
+    },
+    {
+     "id": "the-elm-city-12",
+     "category": "The Elm City",
+     "difficulty": 3,
+     "clue": "In 2007 Yale acquired a 136-acre research complex 7 miles away and named it this.",
+     "answer": "West Campus",
+     "accept": [
+      "West Campus",
+      "Yale West Campus"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "the-elm-city-13",
+     "category": "The Elm City",
+     "difficulty": 4,
+     "clue": "In 1661 two regicide judges of Charles I hid in a cave on this ridge northwest of New Haven.",
+     "answer": "West Rock",
+     "accept": [
+      "West Rock",
+      "West Rock Ridge"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Edward_Whalley"
+    },
+    {
+     "id": "the-elm-city-14",
+     "category": "The Elm City",
+     "difficulty": 4,
+     "clue": "Completed in 1767 and now the Yale Visitor Center, it's the oldest surviving house in New Haven.",
+     "answer": "Pierpont House",
+     "accept": [
+      "Pierpont House",
+      "Pierpont"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "the-elm-city-15",
+     "category": "The Elm City",
+     "difficulty": 5,
+     "clue": "Legend says the Green was sized to hold this many people expected to be saved at the Second Coming.",
+     "answer": "144,000",
+     "accept": [
+      "144,000",
+      "one hundred forty-four thousand"
+     ],
+     "source": "https://en.wikipedia.org/wiki/New_Haven_Green"
+    },
+    {
+     "id": "the-elm-city-16",
+     "category": "The Elm City",
+     "difficulty": 5,
+     "clue": "The Egyptian Revival gate of Grove Street Cemetery bears this line from 1 Corinthians.",
+     "answer": "The Dead Shall Be Raised",
+     "accept": [
+      "The Dead Shall Be Raised",
+      "dead shall be raised"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grove_Street_Cemetery"
+    }
+   ]
+  },
+  {
+   "name": "Yale to the World",
+   "clues": [
+    {
+     "id": "yale-to-the--01",
+     "category": "Yale to the World",
+     "difficulty": 1,
+     "clue": "Yale rheumatologists in the 1970s identified this tick-borne illness, named for a Connecticut town.",
+     "answer": "Lyme disease",
+     "accept": [
+      "Lyme disease",
+      "Lyme"
+     ],
+     "source": "https://medicine.yale.edu/news-article/who-discovered-lyme-disease"
+    },
+    {
+     "id": "yale-to-the--02",
+     "category": "Yale to the World",
+     "difficulty": 2,
+     "clue": "In 1942 a patient at Yale became the first to receive this intravenous cancer treatment.",
+     "answer": "chemotherapy",
+     "accept": [
+      "chemotherapy",
+      "chemo"
+     ],
+     "source": "https://medicine.yale.edu/news-article/the-birth-of-chemotherapy-at-yale-from-wartime-secrecy-to-modern-cancer-care/"
+    },
+    {
+     "id": "yale-to-the--03",
+     "category": "Yale to the World",
+     "difficulty": 2,
+     "clue": "Yale doctors tested a backpack-sized prototype of this diabetes device on children in 1979.",
+     "answer": "insulin pump",
+     "accept": [
+      "insulin pump",
+      "portable insulin pump"
+     ],
+     "source": "https://medicine.yale.edu/news-article/insulin-and-the-first-insulin-pump-how-yale-advanced-diabetes-care/"
+    },
+    {
+     "id": "yale-to-the--04",
+     "category": "Yale to the World",
+     "difficulty": 2,
+     "clue": "In 2011 Yale and this Asian university announced Singapore's first liberal arts college.",
+     "answer": "National University of Singapore",
+     "accept": [
+      "National University of Singapore",
+      "NUS"
+     ],
+     "source": "https://news.yale.edu/2011/03/31/nus-and-yale-create-singapore-s-first-liberal-arts-college"
+    },
+    {
+     "id": "yale-to-the--05",
+     "category": "Yale to the World",
+     "difficulty": 2,
+     "clue": "Opened in 2022, this school of global affairs was Yale's first new professional school since 1976.",
+     "answer": "Jackson School of Global Affairs",
+     "accept": [
+      "Jackson School of Global Affairs",
+      "Jackson School",
+      "Yale Jackson School"
+     ],
+     "source": "https://catalog.yale.edu/global-affairs/history-mission/"
+    },
+    {
+     "id": "yale-to-the--06",
+     "category": "Yale to the World",
+     "difficulty": 3,
+     "clue": "In 1948 a Yale medical student built a heart bypass pump for $24.80 using parts from this toy kit.",
+     "answer": "Erector set",
+     "accept": [
+      "Erector set",
+      "Erector"
+     ],
+     "source": "https://medicine.yale.edu/news-article/from-erector-set-to-heart-bypass/"
+    },
+    {
+     "id": "yale-to-the--07",
+     "category": "Yale to the World",
+     "difficulty": 3,
+     "clue": "This Yale physicist shared the 2025 Nobel Prize in Physics for quantum effects in an electric circuit.",
+     "answer": "Michel Devoret",
+     "accept": [
+      "Michel Devoret",
+      "Devoret"
+     ],
+     "source": "https://www.nobelprize.org/prizes/physics/2025/devoret/facts/"
+    },
+    {
+     "id": "yale-to-the--08",
+     "category": "Yale to the World",
+     "difficulty": 3,
+     "clue": "Founded in 1901 and renamed in 1975, this organization links Yale with China through education and service.",
+     "answer": "Yale-China Association",
+     "accept": [
+      "Yale-China Association",
+      "Yale-China",
+      "Yale-in-China"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale-China_Association"
+    },
+    {
+     "id": "yale-to-the--09",
+     "category": "Yale to the World",
+     "difficulty": 3,
+     "clue": "Founded in 1915 as one of the first U.S. public health programs, Yale's department is also named for this science of how disease spreads.",
+     "answer": "epidemiology",
+     "accept": [
+      "epidemiology",
+      "Epidemiology and Public Health"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "yale-to-the--10",
+     "category": "Yale to the World",
+     "difficulty": 4,
+     "clue": "Because of wartime secrecy, the nitrogen mustard first given to a Yale patient in 1942 had this code name.",
+     "answer": "Substance X",
+     "accept": [
+      "Substance X",
+      "X"
+     ],
+     "source": "https://medicine.yale.edu/news-article/the-birth-of-chemotherapy-at-yale-from-wartime-secrecy-to-modern-cancer-care/"
+    },
+    {
+     "id": "yale-to-the--11",
+     "category": "Yale to the World",
+     "difficulty": 4,
+     "clue": "Yale researchers invented this noise-resistant superconducting qubit, a key building block of quantum computers.",
+     "answer": "transmon",
+     "accept": [
+      "transmon",
+      "transmon qubit"
+     ],
+     "source": "https://rsl.yale.edu/research"
+    },
+    {
+     "id": "yale-to-the--12",
+     "category": "Yale to the World",
+     "difficulty": 4,
+     "clue": "The Yale-China Association set up its base in this capital of Hunan province.",
+     "answer": "Changsha",
+     "accept": [
+      "Changsha"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale-China_Association"
+    },
+    {
+     "id": "yale-to-the--13",
+     "category": "Yale to the World",
+     "difficulty": 4,
+     "clue": "Yale's Singapore partnership college closed in 2025 and merged into this honors college, first called \"New College.\"",
+     "answer": "NUS College",
+     "accept": [
+      "NUS College",
+      "NUSC"
+     ],
+     "source": "https://legacy.yale-nus.edu.sg/stories/closure"
+    },
+    {
+     "id": "yale-to-the--14",
+     "category": "Yale to the World",
+     "difficulty": 5,
+     "clue": "Abbreviated cQED, this field created at Yale uses microwaves on wires to carry quantum information.",
+     "answer": "circuit quantum electrodynamics",
+     "accept": [
+      "circuit quantum electrodynamics",
+      "circuit QED",
+      "cQED"
+     ],
+     "source": "https://rsl.yale.edu/research"
+    },
+    {
+     "id": "yale-to-the--15",
+     "category": "Yale to the World",
+     "difficulty": 5,
+     "clue": "In 1906 Dr. Edward Hume founded this Changsha school, its name from the Chinese short form of \"Yale.\"",
+     "answer": "Yali",
+     "accept": [
+      "Yali",
+      "Yali School",
+      "Yali Middle School"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale-China_Association"
+    }
+   ]
+  },
+  {
+   "name": "Boola Boola",
+   "clues": [
+    {
+     "id": "boola-boola-01",
+     "category": "Boola Boola",
+     "difficulty": 1,
+     "clue": "Yale's Latin motto, \"Lux et Veritas,\" means this.",
+     "answer": "light and truth",
+     "accept": [
+      "light and truth",
+      "Light and Truth"
+     ],
+     "source": "https://news.yale.edu/2025/03/21/objects-represent-tradition-and-welcome-new-generation-leadership"
+    },
+    {
+     "id": "boola-boola-02",
+     "category": "Boola Boola",
+     "difficulty": 1,
+     "clue": "Founded in 1878, it calls itself the nation's oldest college daily newspaper.",
+     "answer": "Yale Daily News",
+     "accept": [
+      "Yale Daily News",
+      "YDN",
+      "the News"
+     ],
+     "source": "https://yaledailynews.com/about-us"
+    },
+    {
+     "id": "boola-boola-03",
+     "category": "Boola Boola",
+     "difficulty": 2,
+     "clue": "Founded in 1909 at Mory's, this group of seniors is the oldest collegiate a cappella group in the U.S.",
+     "answer": "The Whiffenpoofs",
+     "accept": [
+      "The Whiffenpoofs",
+      "Whiffenpoofs",
+      "Whiffs"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Whiffenpoofs"
+    },
+    {
+     "id": "boola-boola-04",
+     "category": "Boola Boola",
+     "difficulty": 2,
+     "clue": "Inspired by Handsome Dan, this Yale student wrote the fight song \"Bulldog, Bulldog.\"",
+     "answer": "Cole Porter",
+     "accept": [
+      "Cole Porter",
+      "Porter"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "boola-boola-05",
+     "category": "Boola Boola",
+     "difficulty": 2,
+     "clue": "Founded in 1832, this senior society is also known as \"Order 322.\"",
+     "answer": "Skull and Bones",
+     "accept": [
+      "Skull and Bones",
+      "Bones",
+      "The Order"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Skull_and_Bones"
+    },
+    {
+     "id": "boola-boola-06",
+     "category": "Boola Boola",
+     "difficulty": 2,
+     "clue": "Each April, admitted students visit campus for this three-day program.",
+     "answer": "Bulldog Days",
+     "accept": [
+      "Bulldog Days"
+     ],
+     "source": "https://conferencesandevents.yale.edu/posts/2026-04-30-inside-bulldog-days-bringing-the-yale-experience-to-life"
+    },
+    {
+     "id": "boola-boola-07",
+     "category": "Boola Boola",
+     "difficulty": 2,
+     "clue": "Yale has 14 of these, each built around a courtyard, a system modeled on Oxford and Cambridge.",
+     "answer": "residential colleges",
+     "accept": [
+      "residential colleges",
+      "colleges",
+      "residential college"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "boola-boola-08",
+     "category": "Boola Boola",
+     "difficulty": 3,
+     "clue": "Oklahoma's \"Boomer Sooner\" borrows the tune of this 1900 Yale football song.",
+     "answer": "Boola Boola",
+     "accept": [
+      "Boola Boola",
+      "Boola"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Boola_Boola"
+    },
+    {
+     "id": "boola-boola-09",
+     "category": "Boola Boola",
+     "difficulty": 3,
+     "clue": "Founded in 1872, it's the oldest humor magazine in the U.S.",
+     "answer": "The Yale Record",
+     "accept": [
+      "The Yale Record",
+      "Yale Record"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Yale_Record"
+    },
+    {
+     "id": "boola-boola-10",
+     "category": "Boola Boola",
+     "difficulty": 3,
+     "clue": "Founded in 1836, this is the oldest literary review in the country.",
+     "answer": "Yale Literary Magazine",
+     "accept": [
+      "Yale Literary Magazine",
+      "Yale Lit",
+      "Lit Mag"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "boola-boola-11",
+     "category": "Boola Boola",
+     "difficulty": 3,
+     "clue": "In 2017 Yale opened two new residential colleges: Benjamin Franklin and this one, named for a civil rights lawyer and priest.",
+     "answer": "Pauli Murray",
+     "accept": [
+      "Pauli Murray",
+      "Pauli Murray College",
+      "Murray"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "boola-boola-12",
+     "category": "Boola Boola",
+     "difficulty": 4,
+     "clue": "Students fought over a giant inflated ball on Old Campus in this game until it was banned in 1982.",
+     "answer": "Bladderball",
+     "accept": [
+      "Bladderball"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Bladderball"
+    },
+    {
+     "id": "boola-boola-13",
+     "category": "Boola Boola",
+     "difficulty": 4,
+     "clue": "This trophy goes to the residential college with the most intramural points each year.",
+     "answer": "Tyng Cup",
+     "accept": [
+      "Tyng Cup",
+      "the Tyng"
+     ],
+     "source": "https://news.yale.edu/2019/05/03/broomball-basketball-yale-ims-unite-colleges-quest-tyng-cup"
+    },
+    {
+     "id": "boola-boola-14",
+     "category": "Boola Boola",
+     "difficulty": 4,
+     "clue": "The Yale band plays this song at the end of every athletic event, win or lose.",
+     "answer": "Down the Field",
+     "accept": [
+      "Down the Field"
+     ],
+     "source": "https://bands.yalecollege.yale.edu/yale-precision-marching-band/music/yale-fight-songs"
+    },
+    {
+     "id": "boola-boola-15",
+     "category": "Boola Boola",
+     "difficulty": 5,
+     "clue": "These Hebrew words on Yale's seal refer to objects in the high priest's breastplate.",
+     "answer": "Urim and Thummim",
+     "accept": [
+      "Urim and Thummim",
+      "Urim v'Thummim",
+      "Urim ve-Thummim"
+     ],
+     "source": "https://news.yale.edu/2025/03/21/objects-represent-tradition-and-welcome-new-generation-leadership"
+    },
+    {
+     "id": "boola-boola-16",
+     "category": "Boola Boola",
+     "difficulty": 5,
+     "clue": "\"The Whiffenpoof Song\" lyrics were adapted from this Rudyard Kipling poem.",
+     "answer": "Gentlemen-Rankers",
+     "accept": [
+      "Gentlemen-Rankers",
+      "Gentlemen Rankers"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Whiffenpoofs"
+    }
+   ]
+  },
+  {
+   "name": "Presidents & Schools",
+   "clues": [
+    {
+     "id": "presidents-s-01",
+     "category": "Presidents & Schools",
+     "difficulty": 1,
+     "clue": "Taking office in 2024, she is Yale's 24th president and its first woman president on a permanent basis.",
+     "answer": "Maurie McInnis",
+     "accept": [
+      "Maurie McInnis",
+      "McInnis"
+     ],
+     "source": "https://nbcchicago.com/news/business/money-report/for-the-first-time-in-323-years-yale-has-elected-a-woman-as-its-permanent-president/3450769"
+    },
+    {
+     "id": "presidents-s-02",
+     "category": "Presidents & Schools",
+     "difficulty": 2,
+     "clue": "This Yale president from 1978 to 1986 later became commissioner of Major League Baseball.",
+     "answer": "A. Bartlett Giamatti",
+     "accept": [
+      "A. Bartlett Giamatti",
+      "Bart Giamatti",
+      "Giamatti"
+     ],
+     "source": "https://www.mlb.com/official-information/commissioners/giamatti"
+    },
+    {
+     "id": "presidents-s-03",
+     "category": "Presidents & Schools",
+     "difficulty": 2,
+     "clue": "Founded in 1824, this Yale school is consistently ranked as the nation's preeminent one in its field.",
+     "answer": "Yale Law School",
+     "accept": [
+      "Yale Law School",
+      "Law School",
+      "YLS"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-04",
+     "category": "Presidents & Schools",
+     "difficulty": 2,
+     "clue": "A $150 million gift from David Geffen in 2021 made this school tuition-free.",
+     "answer": "David Geffen School of Drama",
+     "accept": [
+      "David Geffen School of Drama",
+      "School of Drama",
+      "Yale Drama",
+      "Geffen School of Drama"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-05",
+     "category": "Presidents & Schools",
+     "difficulty": 2,
+     "clue": "Founded in 1976, it offers the MBA and many joint degrees.",
+     "answer": "Yale School of Management",
+     "accept": [
+      "Yale School of Management",
+      "SOM",
+      "School of Management"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-06",
+     "category": "Presidents & Schools",
+     "difficulty": 3,
+     "clue": "A psychologist, he served as Yale's 23rd president starting in 2013.",
+     "answer": "Peter Salovey",
+     "accept": [
+      "Peter Salovey",
+      "Salovey"
+     ],
+     "source": "https://news.yale.edu/2012/11/08/yale-provost-peter-salovey-be-university-s-next-president"
+    },
+    {
+     "id": "presidents-s-07",
+     "category": "Presidents & Schools",
+     "difficulty": 3,
+     "clue": "This economist led Yale from 1993 to 2013, the longest-serving sitting Ivy League president at the time.",
+     "answer": "Richard Levin",
+     "accept": [
+      "Richard Levin",
+      "Rick Levin",
+      "Levin"
+     ],
+     "source": "https://news.yale.edu/2012/08/30/levin-step-down-yale-president-end-academic-year"
+    },
+    {
+     "id": "presidents-s-08",
+     "category": "Presidents & Schools",
+     "difficulty": 3,
+     "clue": "Founded in 1900 with Pinchot family funds, Yale's forestry school is now known by this name.",
+     "answer": "Yale School of the Environment",
+     "accept": [
+      "Yale School of the Environment",
+      "School of the Environment",
+      "YSE"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-09",
+     "category": "Presidents & Schools",
+     "difficulty": 3,
+     "clue": "Yale is made up of this many schools.",
+     "answer": "15",
+     "accept": [
+      "15",
+      "fifteen"
+     ],
+     "source": "https://www.yale.edu/about-yale/yale-facts"
+    },
+    {
+     "id": "presidents-s-10",
+     "category": "Presidents & Schools",
+     "difficulty": 3,
+     "clue": "Paul Mellon's gift created this Louis Kahn-designed center, which opened in 1977.",
+     "answer": "Yale Center for British Art",
+     "accept": [
+      "Yale Center for British Art",
+      "YCBA",
+      "Center for British Art"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-11",
+     "category": "Presidents & Schools",
+     "difficulty": 4,
+     "clue": "This Yale president committed to 1969 as the year women would enter Yale College.",
+     "answer": "Kingman Brewster",
+     "accept": [
+      "Kingman Brewster",
+      "Brewster"
+     ],
+     "source": "https://guides.library.yale.edu/c.php?g=871411&p=6256097"
+    },
+    {
+     "id": "presidents-s-12",
+     "category": "Presidents & Schools",
+     "difficulty": 4,
+     "clue": "Founded in 1923, it was the first nursing school independent of hospital control within a university.",
+     "answer": "Yale School of Nursing",
+     "accept": [
+      "Yale School of Nursing",
+      "School of Nursing",
+      "YSN"
+     ],
+     "source": "https://www.yale.edu/about-yale/traditions-history"
+    },
+    {
+     "id": "presidents-s-13",
+     "category": "Presidents & Schools",
+     "difficulty": 4,
+     "clue": "George Parmly Day founded this Yale publishing house in 1908.",
+     "answer": "Yale University Press",
+     "accept": [
+      "Yale University Press",
+      "Yale Press"
+     ],
+     "source": "https://www.publishersweekly.com/pw/print/20080630/10941-yale-university-press-at-100.html"
+    },
+    {
+     "id": "presidents-s-14",
+     "category": "Presidents & Schools",
+     "difficulty": 5,
+     "clue": "This Yale president from 1778 to 1795 required freshmen to study Hebrew and put the Hebrew phrase on the seal.",
+     "answer": "Ezra Stiles",
+     "accept": [
+      "Ezra Stiles",
+      "Stiles"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Yale_University"
+    },
+    {
+     "id": "presidents-s-15",
+     "category": "Presidents & Schools",
+     "difficulty": 5,
+     "clue": "Acting president of Yale in 1977-78, this historian then led the University of Chicago for 15 years.",
+     "answer": "Hanna Holborn Gray",
+     "accept": [
+      "Hanna Holborn Gray",
+      "Hanna Gray"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Hanna_Holborn_Gray"
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "id": "final-campus-01",
+   "category": "Campus Landmarks",
+   "difficulty": 3,
+   "clue": "It's the only Yale building surviving from the colonial era, and a statue of its most famous resident, a patriot spy, stands outside.",
+   "answer": "Connecticut Hall",
+   "accept": [
+    "Connecticut Hall",
+    "Conn Hall"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Hall"
+  },
+  {
+   "id": "final-yale-s-01",
+   "category": "Yale Songbook",
+   "difficulty": 3,
+   "clue": "Yale's bulldog mascot inspired this alumnus to write \"Bulldog,\" long before he wrote \"Night and Day.\"",
+   "answer": "Cole Porter",
+   "accept": [
+    "Cole Porter",
+    "Porter"
+   ],
+   "source": "https://www.britannica.com/biography/Cole-Porter"
+  },
+  {
+   "id": "final-gridir-01",
+   "category": "Gridiron Legacy",
+   "difficulty": 3,
+   "clue": "This 1914 Yale structure lent its name to a whole family of college football postseason games.",
+   "answer": "Yale Bowl",
+   "accept": [
+    "Yale Bowl",
+    "the Bowl"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Yale_Bowl"
+  },
+  {
+   "id": "final-foundi-01",
+   "category": "Founding Documents",
+   "difficulty": 3,
+   "clue": "Four Yale graduates signed this document, including Lyman Hall and Oliver Wolcott.",
+   "answer": "Declaration of Independence",
+   "accept": [
+    "Declaration of Independence",
+    "the Declaration"
+   ],
+   "source": "https://www.yale.edu/about-yale/traditions-history"
+  }
+ ]
+}

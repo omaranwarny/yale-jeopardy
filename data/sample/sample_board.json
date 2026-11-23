@@ -1,0 +1,412 @@
+{
+ "title": "Building AI Agents (sample)",
+ "categories": [
+  {
+   "name": "Agent Basics",
+   "clues": [
+    {
+     "category": "Agent Basics",
+     "clue": "This kind of AI system is a language model that can call tools in a loop until it finishes a task.",
+     "answer": "an AI agent",
+     "accept": [
+      "an AI agent",
+      "agent",
+      "AI agent"
+     ],
+     "difficulty": 1,
+     "value": 200,
+     "passage": "P1",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "An AI agent is a language model that can call tools in a loop until it finishes a task.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Agent Basics",
+     "clue": "A tool is described by a name, a description, and one of these for its arguments.",
+     "answer": "a JSON schema",
+     "accept": [
+      "a JSON schema",
+      "JSON schema",
+      "schema"
+     ],
+     "difficulty": 2,
+     "value": 400,
+     "passage": "P1",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "described by a name, a description, and a JSON schema for its arguments",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Agent Basics",
+     "clue": "The model never runs a tool itself; this does, which is where permissions and logging belong.",
+     "answer": "the surrounding code",
+     "accept": [
+      "the surrounding code",
+      "code",
+      "the code",
+      "the program"
+     ],
+     "difficulty": 3,
+     "value": 600,
+     "passage": "P1",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "The model never runs the tool itself; the surrounding code does, which is where permissions and logging belong.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Agent Basics",
+     "clue": "Forcing a model to return data that fits a schema, like a Pydantic model, is called this.",
+     "answer": "structured output",
+     "accept": [
+      "structured output",
+      "structured outputs"
+     ],
+     "difficulty": 4,
+     "value": 800,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Structured output means the model must return data that fits a schema, such as a Pydantic model.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Agent Basics",
+     "clue": "Structured output lets code check the answer this way instead of parsing free text.",
+     "answer": "field by field",
+     "accept": [
+      "field by field",
+      "field-by-field"
+     ],
+     "difficulty": 5,
+     "value": 1000,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "This lets code check the answer field by field instead of parsing free text.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    }
+   ],
+   "spares": []
+  },
+  {
+   "name": "Protocol Droids",
+   "clues": [
+    {
+     "category": "Protocol Droids",
+     "clue": "This open standard, abbreviated MCP, lets an agent discover and call tools exposed by a server.",
+     "answer": "the Model Context Protocol",
+     "accept": [
+      "the Model Context Protocol",
+      "Model Context Protocol"
+     ],
+     "difficulty": 1,
+     "value": 200,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "The Model Context Protocol, or MCP, is an open standard that lets an agent discover and call tools exposed by a server.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Protocol Droids",
+     "clue": "A local MCP server communicates over this channel.",
+     "answer": "stdio",
+     "accept": [
+      "stdio",
+      "standard input/output",
+      "standard io"
+     ],
+     "difficulty": 2,
+     "value": 400,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "An MCP server can run locally over stdio or remotely over HTTP.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Protocol Droids",
+     "clue": "A remote MCP server communicates over this protocol.",
+     "answer": "HTTP",
+     "accept": [
+      "HTTP",
+      "https"
+     ],
+     "difficulty": 3,
+     "value": 600,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "An MCP server can run locally over stdio or remotely over HTTP.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Protocol Droids",
+     "clue": "With the database behind an MCP server, agents can only touch data through these.",
+     "answer": "the tools the server exposes",
+     "accept": [
+      "the tools the server exposes",
+      "tools",
+      "the server's tools",
+      "exposed tools"
+     ],
+     "difficulty": 4,
+     "value": 800,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "agents can only touch data through the tools the server chooses to expose",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Protocol Droids",
+     "clue": "A good MCP tool returns only what is in the data and never does this to values.",
+     "answer": "invents them",
+     "accept": [
+      "invents them",
+      "invent",
+      "invents",
+      "invent values",
+      "makes them up"
+     ],
+     "difficulty": 5,
+     "value": 1000,
+     "passage": "P2",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "A good MCP tool returns only what is actually in the data and never invents values.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    }
+   ],
+   "spares": []
+  },
+  {
+   "name": "Token Economy",
+   "clues": [
+    {
+     "category": "Token Economy",
+     "clue": "Providers bill by the number of input and output these.",
+     "answer": "tokens",
+     "accept": [
+      "tokens",
+      "token"
+     ],
+     "difficulty": 1,
+     "value": 200,
+     "passage": "P3",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "providers bill by the number of input and output tokens",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Token Economy",
+     "clue": "Roughly, one token is about this many characters of English.",
+     "answer": "three to four",
+     "accept": [
+      "three to four",
+      "3 to 4",
+      "3-4",
+      "three or four"
+     ],
+     "difficulty": 2,
+     "value": 400,
+     "passage": "P3",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "roughly three to four characters of English",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Token Economy",
+     "clue": "These tokens usually cost several times more than input tokens.",
+     "answer": "output tokens",
+     "accept": [
+      "output tokens",
+      "output"
+     ],
+     "difficulty": 3,
+     "value": 600,
+     "passage": "P3",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Output tokens usually cost several times more than input tokens.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Token Economy",
+     "clue": "Cached input tokens are often billed at this fraction of the normal input price.",
+     "answer": "one tenth",
+     "accept": [
+      "one tenth",
+      "1/10",
+      "a tenth",
+      "10 percent",
+      "10%"
+     ],
+     "difficulty": 4,
+     "value": 800,
+     "passage": "P4",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "often one tenth of the normal input price",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Token Economy",
+     "clue": "To benefit from caching, long static content goes here in the prompt.",
+     "answer": "at the start",
+     "accept": [
+      "at the start",
+      "the start",
+      "the beginning",
+      "at the beginning",
+      "first"
+     ],
+     "difficulty": 5,
+     "value": 1000,
+     "passage": "P4",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "put the long static content, such as instructions and a handbook, at the start of the prompt",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    }
+   ],
+   "spares": []
+  },
+  {
+   "name": "Injection Protection",
+   "clues": [
+    {
+     "category": "Injection Protection",
+     "clue": "This attack hides instructions inside data so that a model treats them as commands.",
+     "answer": "prompt injection",
+     "accept": [
+      "prompt injection",
+      "injection"
+     ],
+     "difficulty": 1,
+     "value": 200,
+     "passage": "P4",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Prompt injection is an attack that hides instructions inside data so that a model treats them as commands.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Injection Protection",
+     "clue": "Text of this color in a PDF is a classic place to hide an injection.",
+     "answer": "white",
+     "accept": [
+      "white",
+      "white text"
+     ],
+     "difficulty": 2,
+     "value": 400,
+     "passage": "P4",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Examples include white text in a PDF",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Injection Protection",
+     "clue": "In layered defense, this layer removes hidden text before any model sees it.",
+     "answer": "the code layer",
+     "accept": [
+      "the code layer",
+      "code",
+      "code layer"
+     ],
+     "difficulty": 3,
+     "value": 600,
+     "passage": "P5",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "The code layer removes hidden text before any model sees it",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Injection Protection",
+     "clue": "Requiring every reported fact to be traceable to the source is called this.",
+     "answer": "grounding",
+     "accept": [
+      "grounding",
+      "grounded"
+     ],
+     "difficulty": 4,
+     "value": 800,
+     "passage": "P5",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Grounding means every fact an agent reports must be traceable to the source.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    },
+    {
+     "category": "Injection Protection",
+     "clue": "Deliberately attacking your own system to find weaknesses before real users do.",
+     "answer": "red teaming",
+     "accept": [
+      "red teaming",
+      "red team",
+      "red-teaming"
+     ],
+     "difficulty": 5,
+     "value": 1000,
+     "passage": "P5",
+     "source": "Sample lecture: Building AI Agents",
+     "quote": "Red teaming means deliberately attacking your own system to find weaknesses before real users do.",
+     "status": "ok",
+     "verdict": "SUPPORTED",
+     "note": ""
+    }
+   ],
+   "spares": []
+  }
+ ],
+ "final": {
+  "category": "Many Hands",
+  "clue": "In the safest design, agents may request money movements, but only these get the tool that actually moves the money.",
+  "answer": "humans",
+  "accept": [
+   "humans",
+   "people",
+   "a human",
+   "human"
+  ],
+  "difficulty": 3,
+  "passage": "P3",
+  "source": "Sample lecture: Building AI Agents",
+  "quote": "The safest design lets agents request money movements but gives only humans the tool that actually moves the money.",
+  "status": "ok"
+ },
+ "values": [
+  200,
+  400,
+  600,
+  800,
+  1000
+ ]
+}

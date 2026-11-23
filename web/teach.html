@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#00356b"><title>Create a review game · Yale Jeopardy</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="page">
+  <div class="topbar"><a class="brand" href="/"><span class="crest-sm">Y</span>Yale Jeopardy</a>
+    <nav><a href="/teach">Teach</a><a href="/evidence">Evidence</a></nav></div>
+
+  <!-- STEP 1: materials -->
+  <section id="s-upload">
+    <p class="eyebrow">Step 1 of 3</p>
+    <h2 class="h">Add your course material</h2>
+    <p class="sub">Slides (.pptx), PDFs, Word files or pasted notes. Up to 8 files. Clues will come <b>only</b> from this material.</p>
+    <div class="tile">
+      <label class="drop" id="drop"><input type="file" id="file" multiple accept=".pdf,.pptx,.docx,.txt,.md" hidden>
+        <b>Drop files here</b> or tap to choose<br><small>PDF · PowerPoint · Word · text</small></label>
+      <ul class="files" id="files"></ul>
+      <label class="field" style="margin-top:12px">…or paste notes
+        <textarea id="paste" placeholder="Paste lecture notes, a reading, or a case summary"></textarea></label>
+      <div class="opts">
+        <label class="field">Categories <select id="o-cats"><option>3</option><option>4</option><option selected>5</option><option>6</option></select></label>
+        <label class="field">Clues per category <select id="o-rows"><option>3</option><option>4</option><option selected>5</option></select></label>
+        <label class="field">Audience <input id="o-aud" value="university students" maxlength="80"></label>
+        <label class="field">Focus (optional) <input id="o-focus" maxlength="300" placeholder="e.g. formulas and key terms"></label>
+      </div>
+      <div class="controls" style="justify-content:flex-start">
+        <button class="btn gold big" id="build">Build my board</button>
+        <button class="btn ghost" id="sample">Try the sample lecture (no AI needed)</button>
+      </div>
+      <p class="err" id="err" role="alert"></p>
+    </div>
+    <div class="tile" id="mine" style="margin-top:14px;display:none"><h3>Your boards</h3><ul class="files" id="mine-list"></ul></div>
+  </section>
+
+  <!-- STEP 1.5: building -->
+  <section id="s-build" class="hidden" style="text-align:center">
+    <p class="eyebrow">Step 2 of 3</p><h2 class="h">Building your board…</h2>
+    <div class="spinner"></div>
+    <ul class="steps" id="steps">
+      <li data-s="0">Reading your files (hidden text removed; picture-only slides are transcribed)</li>
+      <li data-s="1">Writer agent drafting clues with quotes</li>
+      <li data-s="2">Code checking every quote is really in your material</li>
+      <li data-s="3">Checker agent fact-checking each clue</li>
+      <li data-s="4">Picking the best clues, easy to hard</li>
+    </ul>
+    <p class="sub" id="read-info" style="margin-top:16px"></p>
+  </section>
+
+  <!-- STEP 2: review -->
+  <section id="s-review" class="hidden">
+    <p class="eyebrow">Step 2 of 3 · Review</p>
+    <h2 class="h" id="b-title"></h2>
+    <p class="sub">Tap any clue to see the quote it came from. Edit, swap in a spare, or delete. Amber clues were flagged by the checker. Please look at those.</p>
+    <div class="stats" id="b-stats"></div>
+    <div class="legend"><span><i style="background:var(--blue-3)"></i>passed both checks</span>
+      <span><i style="border:2px solid var(--gold)"></i>flagged: please review</span><span><i style="border:2px solid #a6f0c4"></i>edited by you</span></div>
+    <div class="rboard" id="rboard"></div>
+    <div class="tile" style="margin-top:16px" id="final-tile"></div>
+
+    <!-- STEP 3: host -->
+    <div class="tile" style="margin-top:16px">
+      <p class="eyebrow">Step 3 of 3</p><h3>Play it with your class</h3>
+      <div class="opts" style="grid-template-columns:1fr 1fr">
+        <label class="field">Mode <select id="h-mode">
+          <option value="all" selected>Everyone answers (best for review data)</option>
+          <option value="buzz">Classic buzzer</option></select></label>
+        <label class="field">AI contestants to fill seats <select id="h-ai">
+          <option value="0" selected>None</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label>
+      </div>
+      <div class="controls" style="justify-content:flex-start">
+        <button class="btn gold big" id="host">Approve &amp; open the room</button>
+        <button class="btn ghost" id="restart">Start over</button>
+      </div>
+      <p class="muted">Opens on this screen. Put it on the projector; students join at <span class="kbd" id="join-url"></span>.</p>
+    </div>
+  </section>
+</div>
+
+<!-- clue editor -->
+<div class="overlay" id="ed" role="dialog" aria-modal="true"><div class="clue-card" style="text-align:left">
+  <div class="clue-top"><span id="ed-cat"></span><span id="ed-val"></span></div>
+  <label class="field" style="margin-top:14px">Clue <textarea id="ed-clue" style="min-height:80px"></textarea></label>
+  <label class="field">Answer <input id="ed-ans"></label>
+  <label class="field">Also accept (comma separated) <input id="ed-acc"></label>
+  <div class="quote" id="ed-quote" style="margin:12px 0"></div>
+  <p class="muted" id="ed-note"></p>
+  <div class="actions" style="justify-content:flex-start">
+    <button class="btn gold" id="ed-save">Save</button><button class="btn ghost" id="ed-swap">Swap for a spare</button>
+    <button class="btn ghost" id="ed-del">Delete</button><button class="btn ghost" id="ed-close" style="margin-left:auto">Close</button>
+  </div></div></div>
+
+<script src="/static/common.js"></script>
+<script src="/static/teach.js"></script>
+</body></html>

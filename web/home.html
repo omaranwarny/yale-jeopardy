@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#00356b">
+<title>Yale Jeopardy · Classroom Edition</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2300356b'/%3E%3Ctext x='32' y='46' font-family='Georgia' font-size='40' font-weight='700' fill='%23f2c14e' text-anchor='middle'%3EY%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="page">
+  <div class="topbar"><a class="brand" href="/"><span class="crest-sm">Y</span>Yale Jeopardy</a>
+    <nav><a href="/teach">Teach</a><a href="/play">Join</a><a href="/yale">Yale solo</a><a href="/evidence">Evidence</a></nav></div>
+
+  <p class="eyebrow">Classroom Edition</p>
+  <h1 style="text-align:left;margin-top:8px">Turn your lecture into<br><span>a review game</span> in minutes.</h1>
+  <p class="sub" style="max-width:720px">Upload your slides, PDF or notes. AI agents write a Jeopardy board <b>from your material only</b>:
+    every clue quotes the line it came from, and a checker agent throws out anything it can't find. You review it, project it,
+    and the whole class plays from their phones. Afterwards you get a <b>reteach list</b> of what the class missed.</p>
+
+  <div class="grid3">
+    <div class="tile hero"><h3>Teach</h3><p>Build a fact-checked review game from your own course materials, then host it on the projector.</p>
+      <a class="btn gold" href="/teach">Create a game</a></div>
+    <div class="tile"><h3>Join a game</h3><p>Got a code from the screen? Enter it here, then play from your phone.</p>
+      <form id="join" class="row" style="grid-template-columns:1fr auto;display:grid;gap:8px">
+        <input id="code" class="field" maxlength="5" placeholder="CODE" autocapitalize="characters"
+          style="padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.25);color:#fff;font:800 20px var(--sans);letter-spacing:.2em;text-transform:uppercase">
+        <button class="btn gold">Join</button></form></div>
+    <div class="tile"><h3>Yale Jeopardy (solo)</h3><p>134 fact-checked clues on Yale's history, people and campus, played against three AI Elis.</p>
+      <a class="btn ghost" href="/yale">Play solo</a></div>
+  </div>
+
+  <div class="tile" style="margin-top:14px">
+    <h3>How it keeps clues honest</h3>
+    <div class="grid3" style="gap:18px">
+      <p><b>1. Your material only.</b> Hidden text in files (white or tiny text, hidden slides) is removed, and lines that try to instruct the AI are dropped before any model sees the material.</p>
+      <p><b>2. Quote or it doesn't ship.</b> The writer agent must quote the exact line behind every clue. Code checks that the quote really is in your file, and a second agent fact-checks each clue.</p>
+      <p><b>3. You have the final say.</b> Edit, swap or delete any clue before class, and overrule any answer during the game.</p>
+    </div>
+  </div>
+</div>
+<script src="/static/common.js"></script>
+<script src="/static/loader.js"></script>
+<script src="/static/home.js"></script>
+</body></html>

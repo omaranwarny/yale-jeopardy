@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#00356b"><title>Play · Yale Jeopardy</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="phone">
+  <section id="v-join" class="panel">
+    <div class="crest">Y</div>
+    <h2 class="h">Join the game</h2>
+    <form id="join" class="fb" autocomplete="off">
+      <label class="field">Game code <input id="code" maxlength="5" autocapitalize="characters" placeholder="ABCDE"
+        style="font:800 24px var(--sans);letter-spacing:.2em;text-transform:uppercase;text-align:center"></label>
+      <label class="field">Your name (a nickname is fine) <input id="name" maxlength="18" placeholder="e.g. Sam"></label>
+      <button class="btn gold big">Join</button>
+      <p class="err" id="err"></p>
+    </form>
+  </section>
+
+  <div class="me hidden" id="me"><span id="me-name"></span><span><small class="muted" id="me-rank"></small> <span class="pts" id="me-pts">$0</span></span></div>
+
+  <section id="v-game" class="panel hidden">
+    <p class="eyebrow" id="g-cat"></p>
+    <p class="ptxt" id="g-txt"></p>
+    <div class="timer" id="g-timer"><div id="g-bar"></div></div>
+    <form id="ans" class="fb hidden" autocomplete="off">
+      <input class="ans" id="ans-in" maxlength="120" placeholder="Your answer" enterkeyhint="send" autocapitalize="off">
+      <button class="btn gold big">Lock it in</button>
+    </form>
+    <button class="btn buzz hidden" id="buzz">Buzz</button>
+    <div id="g-msg"></div>
+  </section>
+
+  <section id="v-over" class="panel hidden">
+    <h2 class="h">Thanks for playing!</h2>
+    <p class="ptxt" id="o-rank"></p>
+    <form class="fb" id="sfb">
+      <div class="field">Did this help you review? <div class="likert" id="lk"></div></div>
+      <button class="btn gold">Send</button>
+    </form>
+  </section>
+</div>
+<script src="/static/common.js"></script>
+<script src="/static/loader.js"></script>
+<script src="/static/anim.js"></script>
+<script src="/static/play.js"></script>
+</body></html>

@@ -1,0 +1,16 @@
+# One-click deploy on Render (free plan): New + > Blueprint > pick this repo.
+services:
+  - type: web
+    name: yale-jeopardy
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.server:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORTKEY_API_KEY
+        sync: false            # paste it in the Render dashboard; never in the repo
+      - key: DAILY_BUDGET_USD
+        value: "1.00"
+      - key: PYTHON_VERSION
+        value: "3.12.7"

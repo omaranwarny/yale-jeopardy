@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#00356b">
+<meta name="description" content="Play Jeopardy about Yale University against three AI contestants, hosted by an AI and judged by code.">
+<title>Yale Jeopardy · Lux, Veritas & Points</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2300356b'/%3E%3Ctext x='32' y='46' font-family='Georgia' font-size='40' font-weight='700' fill='%23f2c14e' text-anchor='middle'%3EY%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<!-- ============ START ============ -->
+<section id="start" class="screen active">
+  <div class="start-wrap">
+    <div class="crest">Y</div>
+    <p class="eyebrow">Lux et veritas · and points</p>
+    <h1>Yale <span>Jeopardy</span></h1>
+    <p class="lede">Three centuries of Yale, from the Collegiate School to the quantum lab. Play against three AI Elis,
+      with an AI host and a judge that can't be talked into giving you points.</p>
+
+    <form id="start-form" class="card form" autocomplete="off">
+      <label>Your name <input id="f-name" maxlength="16" placeholder="You" enterkeyhint="go"></label>
+      <div class="row">
+        <fieldset><legend>Game</legend>
+          <label class="chip"><input type="radio" name="size" value="quick" checked><span>Quick · 4×3</span></label>
+          <label class="chip"><input type="radio" name="size" value="full"><span>Full · 6×5</span></label>
+        </fieldset>
+        <fieldset><legend>Opponents</legend>
+          <label class="chip"><input type="radio" name="level" value="easy"><span>Easy</span></label>
+          <label class="chip"><input type="radio" name="level" value="normal" checked><span>Normal</span></label>
+          <label class="chip"><input type="radio" name="level" value="hard"><span>Hard</span></label>
+        </fieldset>
+      </div>
+      <fieldset><legend>Board</legend>
+        <label class="chip"><input type="radio" name="board" value="yale" checked><span>Yale (fact-checked)</span></label>
+        <label class="chip" id="custom-chip"><input type="radio" name="board" value="custom"><span>Any topic (AI-written)</span></label>
+      </fieldset>
+      <input id="f-topic" class="hidden" maxlength="60" placeholder="e.g. Space exploration, 90s movies">
+      <button class="btn gold big" type="submit" id="play-btn">Play</button>
+      <p class="err" id="start-err" role="alert"></p>
+    </form>
+
+    <div class="rivals" id="rivals"></div>
+    <p class="mode-line"><span id="mode-pill" class="pill">checking AI…</span>
+      <a href="#" id="about-link">How it works &amp; sources</a> <a href="/">Classroom Edition</a></p>
+  </div>
+</section>
+
+<!-- ============ GAME ============ -->
+<section id="game" class="screen">
+  <header class="scores" id="scores"></header>
+  <div class="host" id="host"><div class="host-av">L</div><p id="host-line">…</p>
+    <button class="feed-btn" id="feed-btn" aria-label="Show game log">Log</button></div>
+  <main class="board-wrap"><div class="board" id="board"></div></main>
+  <footer class="game-foot">
+    <span class="pill" id="meter">$0.0000</span>
+    <span class="pill" id="game-mode"></span>
+    <span class="pill warn hidden" id="shield">0 tricks blocked</span>
+    <button class="link" id="quit-btn">New game</button>
+  </footer>
+  <aside class="feed" id="feed" aria-live="polite"><h3>Game log <button class="link" id="feed-close">Close</button></h3><ol id="feed-list"></ol></aside>
+</section>
+
+<!-- ============ CLUE OVERLAY ============ -->
+<div class="overlay" id="clue" role="dialog" aria-modal="true">
+  <div class="clue-card">
+    <div class="clue-top"><span id="clue-cat"></span><span id="clue-val"></span></div>
+    <div class="dd-banner hidden" id="dd-banner">Daily Double</div>
+    <p class="clue-text" id="clue-text"></p>
+    <div class="timer"><div id="timer-bar"></div></div>
+    <p class="status" id="clue-status"></p>
+
+    <div class="actions" id="act-buzz">
+      <button class="btn buzz" id="buzz-btn">Buzz</button>
+      <button class="btn ghost" id="pass-btn">Pass</button>
+    </div>
+    <form class="actions hidden" id="act-answer" autocomplete="off">
+      <input id="answer-in" maxlength="80" placeholder="What is…" enterkeyhint="send" autocapitalize="off">
+      <button class="btn gold" type="submit">Answer</button>
+    </form>
+    <form class="actions hidden" id="act-wager" autocomplete="off">
+      <label class="wager-lbl">Your wager <span id="wager-max"></span>
+        <input id="wager-in" type="number" inputmode="numeric" min="0" step="1"></label>
+      <button class="btn gold" type="submit">Lock it in</button>
+    </form>
+    <div class="reveal hidden" id="reveal">
+      <p class="reveal-ans" id="reveal-ans"></p>
+      <ul class="attempts" id="attempts"></ul>
+      <a id="reveal-src" target="_blank" rel="noopener" class="src"></a>
+      <button class="btn gold" id="continue-btn">Continue</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ GAME OVER ============ -->
+<div class="overlay" id="over" role="dialog" aria-modal="true">
+  <div class="clue-card over-card">
+    <p class="eyebrow">Final standings</p>
+    <h2 id="over-title"></h2>
+    <ol class="standings" id="standings"></ol>
+    <div class="final-box" id="final-box"></div>
+    <details class="cost"><summary>What the AI cost this game</summary><div id="cost-detail"></div></details>
+    <div class="actions"><button class="btn gold" id="again-btn">Play again</button></div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<div class="overlay" id="about" role="dialog" aria-modal="true">
+  <div class="clue-card about-card">
+    <h2>How it works</h2>
+    <ul class="how">
+      <li><b>Professor Lux</b> (AI host) runs the show. <b>Archie</b>, <b>Coach Bea</b> and <b>Dr. Nova</b> are AI contestants with their own strengths.</li>
+      <li><b>Code is the referee.</b> Who buzzed first, scores, wagers and turns are all plain code. AIs only <i>talk</i> and <i>propose</i>.</li>
+      <li><b>The judge can't be sweet-talked.</b> Answers are matched in code. An AI judge is only asked about close calls, and answers that try to give it orders are marked wrong.</li>
+      <li><b>Every Yale clue is fact-checked</b> against a source you can open after the clue. Custom-topic boards are AI-written and labeled as not fact-checked.</li>
+      <li><b>Budget-safe.</b> A daily spending cap and rate limits protect the server. When the cap is hit, the AIs keep playing in offline demo mode.</li>
+    </ul>
+    <p id="bank-line" class="muted"></p>
+    <details><summary>Sources</summary><ul id="sources" class="sources"></ul></details>
+    <div class="actions"><button class="btn gold" id="about-close">Got it</button></div>
+  </div>
+</div>
+
+<script src="/static/loader.js" defer></script>
+<script src="/static/app.js" defer></script>
+</body>
+</html>

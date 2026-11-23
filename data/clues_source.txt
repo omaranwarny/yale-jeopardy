@@ -1,0 +1,161 @@
+# Yale Jeopardy clue bank. Every clue was checked against the source URL at the end of its line (Nov 2026).
+# Format:  ## Category name  |  then lines:  difficulty | clue | answer | alternates separated by ; | source
+# difficulty 1 (widely known) .. 5 (deep cut). Edit freely, then run:  python scripts/build_bank.py
+
+## Founding & Firsts
+1 | The Connecticut legislature chartered Yale in this year, making it the nation's third-oldest institution of higher education. | 1701 | October 9, 1701 | https://www.yale.edu/about-yale/traditions-history
+1 | The college was renamed in 1718 for this Welsh merchant who donated nine bales of goods, 417 books and a portrait of King George I. | Elihu Yale | Yale | https://www.yale.edu/about-yale/traditions-history
+2 | Before it took the name Yale College, the school chartered in 1701 went by this name. | Collegiate School | The Collegiate School | https://www.yale.edu/about-yale/traditions-history
+2 | In 1716 the trustees voted to move the school from this shoreline town to New Haven. | Saybrook | Old Saybrook | https://www.yale.edu/about-yale/traditions-history
+2 | In 1861 Yale became the first university in the U.S. to award this degree. | Ph.D. | PhD; doctorate; Doctor of Philosophy | https://www.yale.edu/about-yale/traditions-history
+3 | Opened in 1832 with John Trumbull's paintings, it was the first college art museum in the Western Hemisphere. | Yale University Art Gallery | Art Gallery; YUAG; Trumbull Gallery | https://www.yale.edu/about-yale/traditions-history
+3 | In 1802 Benjamin Silliman taught the first modern course in this science in the United States. | chemistry | — | https://www.yale.edu/about-yale/traditions-history
+3 | In 1792 John Trumbull and James Hillhouse designed this row of buildings, making Yale the first planned college campus in America. | Brick Row | the Brick Row | https://www.yale.edu/about-yale/traditions-history
+3 | Yale College first admitted women as undergraduates in this year. | 1969 | fall 1969 | https://news.yale.edu/2019/09/16/time-turmoil-triumph-50-years-coeducation-yale-college
+4 | Opened in 1869, this was the first Yale school open to women, who made up most of its students for four decades. | School of the Fine Arts | Yale School of Fine Arts; Fine Arts | https://www.yale.edu/about-yale/traditions-history
+4 | Established in 1732, these grants for graduate study, named for a bishop, were the first such scholarships in America. | Berkeley Scholarships | Berkeley Scholarship | https://www.yale.edu/about-yale/traditions-history
+4 | Elihu Yale built the fortune behind his gift in this Indian city. | Madras | Chennai | https://en.wikipedia.org/wiki/Yale_University
+5 | This Puritan minister asked Elihu Yale for money and then suggested the school be named "Yale College." | Cotton Mather | Mather | https://en.wikipedia.org/wiki/Yale_University
+5 | In 1779 this Yale graduate, secretary to the British general, persuaded the British to leave New Haven without burning it. | Edmund Fanning | Fanning | https://www.yale.edu/about-yale/traditions-history
+
+## Famous Elis
+1 | This Yale graduate of 1878 became the 27th U.S. president and later the 10th chief justice. | William Howard Taft | Taft; William Taft | https://www.britannica.com/biography/William-Howard-Taft
+1 | In her senior year at Yale, she won the national competition to design the Vietnam Veterans Memorial. | Maya Lin | Lin | https://www.britannica.com/biography/Maya-Lin
+1 | This record-setting Oscar nominee earned her MFA from Yale's drama program in 1975. | Meryl Streep | Streep | https://www.britannica.com/biography/Meryl-Streep
+1 | This Revolutionary War spy from the class of 1773 is said to have regretted having "but one life to lose for my country." | Nathan Hale | Hale | https://en.wikipedia.org/wiki/Nathan_Hale
+2 | This Yale graduate of 1810 sent the telegraph message "What hath God wrought!" in 1844. | Samuel Morse | Morse; Samuel F. B. Morse | https://www.britannica.com/biography/Samuel-F-B-Morse
+2 | Yale-educated, he published "An American Dictionary of the English Language" in 1828. | Noah Webster | Webster | https://en.wikipedia.org/wiki/Noah_Webster
+2 | As a Yale economics student he wrote a paper on overnight delivery, and in 1971 he founded Federal Express. | Fred Smith | Frederick Smith; Frederick W. Smith | https://www.britannica.com/biography/Frederick-W-Smith
+2 | The first Hispanic Supreme Court justice earned her J.D. at Yale Law School in 1979. | Sonia Sotomayor | Sotomayor | https://www.supremecourt.gov/about/biographies.aspx
+2 | This Yale School of Drama graduate won an Oscar for her first feature film, "12 Years a Slave." | Lupita Nyong'o | Nyong'o; Lupita Nyongo | https://www.britannica.com/biography/Lupita-Nyongo
+3 | This 1920 graduate is the only person to win Pulitzer Prizes for both fiction and drama. | Thornton Wilder | Wilder | https://www.britannica.com/biography/Thornton-Wilder
+3 | This computing pioneer and Navy rear admiral earned a Yale Ph.D. in mathematics in 1934 and has a residential college named for her. | Grace Hopper | Grace Murray Hopper; Hopper | https://www.britannica.com/biography/Grace-Hopper
+3 | In 1854 he became the first Chinese student to graduate from an American university. | Yung Wing | Rong Hong | https://www.yale.edu/about-yale/traditions-history
+3 | This author of "Main Street" and "Babbitt" won the 1930 Nobel Prize in Literature. | Sinclair Lewis | Lewis | https://www.nobelprize.org/prizes/literature/1930/lewis/biographical/
+3 | In 1876 this New Haven native became the first African American to earn a Ph.D. in America, in physics. | Edward Bouchet | Edward Alexander Bouchet; Bouchet | https://www.yale.edu/about-yale/traditions-history
+4 | After starring in football at Michigan, this future 38th president earned a Yale law degree in 1941 while working as an assistant coach. | Gerald Ford | Ford; Jerry Ford | https://www.britannica.com/biography/Gerald-Ford
+4 | Called the "Father of the U.S. Forest Service," this 1889 graduate helped fund Yale's forestry school. | Gifford Pinchot | Pinchot | https://www.yale.edu/about-yale/traditions-history
+4 | This Yale economist won the 2018 Nobel for building climate change into long-run economic models. | William Nordhaus | Nordhaus | https://www.nobelprize.org/prizes/economic-sciences/2018/nordhaus/facts/
+5 | Awarded the first American engineering doctorate in 1863, this Yale physicist has a "free energy" named after him. | Josiah Willard Gibbs | Willard Gibbs; J. Willard Gibbs; Gibbs | https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs
+5 | He earned his Yale Ph.D. in 1925, invented the cyclotron in 1929, and won the 1939 Nobel Prize in Physics. | Ernest Lawrence | Ernest O. Lawrence; Lawrence | https://www.nobelprize.org/prizes/physics/1939/lawrence/biographical/
+
+## Bulldog Nation
+1 | Yale's bulldog mascot, first bought by a student for $5 in 1889, goes by this name. | Handsome Dan | Dan | https://www.yale.edu/about-yale/traditions-history
+1 | Known as the "Father of American Football," this Yale man introduced the down and the eleven-man team. | Walter Camp | Camp | https://www.yale.edu/about-yale/traditions-history
+1 | Opened in 1914, it was the first bowl-shaped stadium in the U.S. | Yale Bowl | the Bowl | https://en.wikipedia.org/wiki/Yale_Bowl
+2 | Yale's football rivalry with this school, known simply as "The Game," was first played in 1875. | Harvard | Harvard University; Harvard Crimson | https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game
+2 | The Yale Bowl inspired the design and name of this Pasadena stadium. | Rose Bowl | the Rose Bowl | https://en.wikipedia.org/wiki/Yale_Bowl
+2 | In 2013 Yale won its first NCAA men's ice hockey title by beating this nearby Connecticut rival 4-0. | Quinnipiac | Quinnipiac University; Bobcats | https://en.wikipedia.org/wiki/Yale_Bulldogs
+2 | Nicknamed "The Whale," Yale's Ingalls Rink was designed by this Finnish-American architect. | Eero Saarinen | Saarinen | https://en.wikipedia.org/wiki/Ingalls_Rink
+2 | First rowed in 1852, this Yale-Harvard race is America's oldest intercollegiate athletic competition. | Harvard-Yale Regatta | Yale-Harvard Regatta; The Regatta; Yale-Harvard Boat Race | https://en.wikipedia.org/wiki/Harvard%E2%80%93Yale_Regatta
+3 | After a 1968 comeback tie, the Harvard Crimson ran this famously illogical headline. | Harvard Beats Yale 29-29 | Harvard beats Yale, 29-29 | https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game
+3 | Yale end Larry Kelley won this trophy in 1936, just its second year. | Heisman Trophy | Heisman | https://en.wikipedia.org/wiki/Yale_Bulldogs_football
+3 | This future baby-care author rowed in the Yale eight that won Olympic gold in Paris in 1924. | Benjamin Spock | Dr. Spock; Spock | https://en.wikipedia.org/wiki/Benjamin_Spock
+3 | Yale won its first NCAA men's lacrosse title in 2018 by beating this ACC school 13-11. | Duke | Duke Blue Devils | https://yalebulldogs.com/news/2018/5/28/5_28_2018_6856.aspx
+3 | This Gothic gym, nicknamed "the cathedral of sweat," displays the stuffed original Handsome Dan near its entrance. | Payne Whitney Gymnasium | Payne Whitney Gym; Payne Whitney | https://en.wikipedia.org/wiki/Payne_Whitney_Gymnasium
+4 | At a football game in 1890, Yale introduced these crowd leaders, a first in college sports. | cheerleaders | cheerleading; cheerleader | https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game
+4 | Yale adopted blue as its color in 1894 after half a century of being associated with this other color. | green | — | https://news.yale.edu/2013/11/18/11-historic-tidbits-about-game
+4 | This NFL team played home games at the Yale Bowl in 1973 and 1974. | New York Giants | Giants; NY Giants | https://en.wikipedia.org/wiki/Yale_Bowl
+5 | The first Harvard-Yale boat race, in 1852, was held on this New Hampshire lake. | Lake Winnipesaukee | Winnipesaukee | https://en.wikipedia.org/wiki/Harvard%E2%80%93Yale_Regatta
+5 | The current Handsome Dan, number XIX, is named for this former Yale president. | Kingman Brewster | Kingman; Brewster | https://visitorcenter.yale.edu/handsome-dan
+
+## Gothic & Granite
+1 | This 216-foot Collegiate Gothic tower got one foot of height for each year since Yale's founding. | Harkness Tower | Harkness Memorial Tower; Harkness | https://en.wikipedia.org/wiki/Harkness_Tower
+1 | Built of translucent marble panes framed in granite, this library opened in 1963 to hold rare books and manuscripts. | Beinecke Rare Book and Manuscript Library | Beinecke; Beinecke Library | https://www.yale.edu/about-yale/traditions-history
+1 | The Beinecke displays one of the 48 surviving copies of this 15th-century printed book. | Gutenberg Bible | the Gutenberg Bible; Gutenberg | https://en.wikipedia.org/wiki/Beinecke_Rare_Book_%26_Manuscript_Library
+2 | Begun in 1750, it is the oldest building in New Haven and the only surviving colonial building at Yale. | Connecticut Hall | Conn Hall | https://www.yale.edu/about-yale/traditions-history
+2 | Designed by James Gamble Rogers to echo a cathedral, this main library was completed in 1930. | Sterling Memorial Library | Sterling; Sterling Library | https://www.yale.edu/about-yale/traditions-history
+2 | Catalogued as Beinecke MS 408, this undeciphered illustrated codex is named for a book dealer. | Voynich manuscript | Voynich | https://en.wikipedia.org/wiki/Voynich_manuscript
+2 | The Peabody's dinosaur hall is centered on this "thunder lizard" sauropod. | Brontosaurus | Apatosaurus | https://news.yale.edu/2024/03/26/inspiring-wonder-again-peabody-museum-reopens
+2 | First-year students live in this 4-acre quadrangle, which also hosts Commencement. | Old Campus | the Old Campus | https://en.wikipedia.org/wiki/Old_Campus_(Yale_University)
+3 | Harkness Tower holds this 54-bell instrument, played daily by students. | carillon | Yale Memorial Carillon | https://www.yale.edu/about-yale/traditions-history
+3 | This architect's 1953 Art Gallery building was the first modernist building at Yale; he later designed the Center for British Art. | Louis Kahn | Louis I. Kahn; Kahn | https://artgallery.yale.edu/about/architecture
+3 | Maya Lin's 1993 sculpture in front of Sterling Library spirals with numbers of women enrolled at Yale each year. | The Women's Table | Women's Table | https://en.wikipedia.org/wiki/The_Women%27s_Table
+3 | This gateway in Phelps Hall is the main entrance to Old Campus from the New Haven Green. | Phelps Gate | Phelps Hall | https://en.wikipedia.org/wiki/Old_Campus_(Yale_University)
+4 | This artist spent five years painting the Peabody's 110-foot mural "The Age of Reptiles," finished in 1947. | Rudolph Zallinger | Zallinger | https://en.wikipedia.org/wiki/The_Age_of_Reptiles
+4 | The underground Bass Library was built beneath this lawn so the view of Sterling's facade would stay open. | Cross Campus | — | https://en.wikipedia.org/wiki/Bass_Library
+4 | This Japanese-American artist designed the sunken marble sculpture garden beside the Beinecke, with a pyramid, a disc and a cube. | Isamu Noguchi | Noguchi | https://en.wikipedia.org/wiki/Beinecke_Rare_Book_%26_Manuscript_Library
+5 | Eero Saarinen designed these two angular residential colleges as a reinvention of a Tuscan village. | Morse and Ezra Stiles | Morse; Ezra Stiles; Stiles | https://en.wikipedia.org/wiki/Residential_colleges_of_Yale_University
+5 | The Stump tower of St Botolph's Church in this English town inspired Harkness Tower. | Boston, Lincolnshire | Boston | https://en.wikipedia.org/wiki/Harkness_Tower
+
+## The Elm City
+1 | Yale's home city of New Haven sits in this U.S. state. | Connecticut | CT | https://www.yale.edu/about-yale/traditions-history
+1 | New Haven's harbor opens onto this arm of the Atlantic. | Long Island Sound | the Sound | https://en.wikipedia.org/wiki/New_Haven_Harbor
+1 | The famous Louis' Lunch hamburger is served on toast and never with this condiment. | ketchup | catsup | https://en.wikipedia.org/wiki/Louis%27_Lunch
+2 | This 16-acre park was the central square of the colonists' nine-square town plan of 1638. | New Haven Green | the Green | https://en.wikipedia.org/wiki/New_Haven_Green
+2 | The trees that once lined the Green gave New Haven this nickname. | Elm City | The Elm City | https://en.wikipedia.org/wiki/New_Haven_Green
+2 | New Haven's thin-crust, coal-oven pizza goes by this local name. | apizza | ah-beetz | https://en.wikipedia.org/wiki/New_Haven-style_pizza
+2 | The Library of Congress credits this Crown Street spot with serving the first hamburger in 1900. | Louis' Lunch | Louis Lunch | https://en.wikipedia.org/wiki/Louis%27_Lunch
+2 | Opened on Wooster Street in 1925, this pizzeria created the white clam pie. | Frank Pepe Pizzeria Napoletana | Pepe's; Frank Pepe's | https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana
+3 | Pepe's longtime Wooster Street rival was opened in 1938 by Frank Pepe's nephew. | Sally's Apizza | Sally's | https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana
+3 | The Soldiers' and Sailors' Monument tops this ridge, whose park overlooks the city and the Sound. | East Rock | East Rock Park | https://en.wikipedia.org/wiki/East_Rock_Park
+3 | Founded in 1796 and resting place of many Yale presidents, it's called the first private nonprofit cemetery. | Grove Street Cemetery | Grove Street | https://en.wikipedia.org/wiki/Grove_Street_Cemetery
+3 | In 2007 Yale acquired a 136-acre research complex 7 miles away and named it this. | West Campus | Yale West Campus | https://www.yale.edu/about-yale/traditions-history
+4 | In 1661 two regicide judges of Charles I hid in a cave on this ridge northwest of New Haven. | West Rock | West Rock Ridge | https://en.wikipedia.org/wiki/Edward_Whalley
+4 | Completed in 1767 and now the Yale Visitor Center, it's the oldest surviving house in New Haven. | Pierpont House | Pierpont | https://www.yale.edu/about-yale/traditions-history
+5 | Legend says the Green was sized to hold this many people expected to be saved at the Second Coming. | 144,000 | one hundred forty-four thousand | https://en.wikipedia.org/wiki/New_Haven_Green
+5 | The Egyptian Revival gate of Grove Street Cemetery bears this line from 1 Corinthians. | The Dead Shall Be Raised | dead shall be raised | https://en.wikipedia.org/wiki/Grove_Street_Cemetery
+
+## Yale to the World
+1 | Yale rheumatologists in the 1970s identified this tick-borne illness, named for a Connecticut town. | Lyme disease | Lyme | https://medicine.yale.edu/news-article/who-discovered-lyme-disease
+2 | In 1942 a patient at Yale became the first to receive this intravenous cancer treatment. | chemotherapy | chemo | https://medicine.yale.edu/news-article/the-birth-of-chemotherapy-at-yale-from-wartime-secrecy-to-modern-cancer-care/
+2 | Yale doctors tested a backpack-sized prototype of this diabetes device on children in 1979. | insulin pump | portable insulin pump | https://medicine.yale.edu/news-article/insulin-and-the-first-insulin-pump-how-yale-advanced-diabetes-care/
+2 | In 2011 Yale and this Asian university announced Singapore's first liberal arts college. | National University of Singapore | NUS | https://news.yale.edu/2011/03/31/nus-and-yale-create-singapore-s-first-liberal-arts-college
+2 | Opened in 2022, this school of global affairs was Yale's first new professional school since 1976. | Jackson School of Global Affairs | Jackson School; Yale Jackson School | https://catalog.yale.edu/global-affairs/history-mission/
+3 | In 1948 a Yale medical student built a heart bypass pump for $24.80 using parts from this toy kit. | Erector set | Erector | https://medicine.yale.edu/news-article/from-erector-set-to-heart-bypass/
+3 | This Yale physicist shared the 2025 Nobel Prize in Physics for quantum effects in an electric circuit. | Michel Devoret | Devoret | https://www.nobelprize.org/prizes/physics/2025/devoret/facts/
+3 | Founded in 1901 and renamed in 1975, this organization links Yale with China through education and service. | Yale-China Association | Yale-China; Yale-in-China | https://en.wikipedia.org/wiki/Yale-China_Association
+3 | Founded in 1915 as one of the first U.S. public health programs, Yale's department is also named for this science of how disease spreads. | epidemiology | Epidemiology and Public Health | https://www.yale.edu/about-yale/traditions-history
+4 | Because of wartime secrecy, the nitrogen mustard first given to a Yale patient in 1942 had this code name. | Substance X | X | https://medicine.yale.edu/news-article/the-birth-of-chemotherapy-at-yale-from-wartime-secrecy-to-modern-cancer-care/
+4 | Yale researchers invented this noise-resistant superconducting qubit, a key building block of quantum computers. | transmon | transmon qubit | https://rsl.yale.edu/research
+4 | The Yale-China Association set up its base in this capital of Hunan province. | Changsha | — | https://en.wikipedia.org/wiki/Yale-China_Association
+4 | Yale's Singapore partnership college closed in 2025 and merged into this honors college, first called "New College." | NUS College | NUSC | https://legacy.yale-nus.edu.sg/stories/closure
+5 | Abbreviated cQED, this field created at Yale uses microwaves on wires to carry quantum information. | circuit quantum electrodynamics | circuit QED; cQED | https://rsl.yale.edu/research
+5 | In 1906 Dr. Edward Hume founded this Changsha school, its name from the Chinese short form of "Yale." | Yali | Yali School; Yali Middle School | https://en.wikipedia.org/wiki/Yale-China_Association
+
+## Boola Boola
+1 | Yale's Latin motto, "Lux et Veritas," means this. | light and truth | Light and Truth | https://news.yale.edu/2025/03/21/objects-represent-tradition-and-welcome-new-generation-leadership
+1 | Founded in 1878, it calls itself the nation's oldest college daily newspaper. | Yale Daily News | YDN; the News | https://yaledailynews.com/about-us
+2 | Founded in 1909 at Mory's, this group of seniors is the oldest collegiate a cappella group in the U.S. | The Whiffenpoofs | Whiffenpoofs; Whiffs | https://en.wikipedia.org/wiki/Whiffenpoofs
+2 | Inspired by Handsome Dan, this Yale student wrote the fight song "Bulldog, Bulldog." | Cole Porter | Porter | https://www.yale.edu/about-yale/traditions-history
+2 | Founded in 1832, this senior society is also known as "Order 322." | Skull and Bones | Bones; The Order | https://en.wikipedia.org/wiki/Skull_and_Bones
+2 | Each April, admitted students visit campus for this three-day program. | Bulldog Days | — | https://conferencesandevents.yale.edu/posts/2026-04-30-inside-bulldog-days-bringing-the-yale-experience-to-life
+2 | Yale has 14 of these, each built around a courtyard, a system modeled on Oxford and Cambridge. | residential colleges | colleges; residential college | https://www.yale.edu/about-yale/traditions-history
+3 | Oklahoma's "Boomer Sooner" borrows the tune of this 1900 Yale football song. | Boola Boola | Boola | https://en.wikipedia.org/wiki/Boola_Boola
+3 | Founded in 1872, it's the oldest humor magazine in the U.S. | The Yale Record | Yale Record | https://en.wikipedia.org/wiki/The_Yale_Record
+3 | Founded in 1836, this is the oldest literary review in the country. | Yale Literary Magazine | Yale Lit; Lit Mag | https://www.yale.edu/about-yale/traditions-history
+3 | In 2017 Yale opened two new residential colleges: Benjamin Franklin and this one, named for a civil rights lawyer and priest. | Pauli Murray | Pauli Murray College; Murray | https://www.yale.edu/about-yale/traditions-history
+4 | Students fought over a giant inflated ball on Old Campus in this game until it was banned in 1982. | Bladderball | — | https://en.wikipedia.org/wiki/Bladderball
+4 | This trophy goes to the residential college with the most intramural points each year. | Tyng Cup | the Tyng | https://news.yale.edu/2019/05/03/broomball-basketball-yale-ims-unite-colleges-quest-tyng-cup
+4 | The Yale band plays this song at the end of every athletic event, win or lose. | Down the Field | — | https://bands.yalecollege.yale.edu/yale-precision-marching-band/music/yale-fight-songs
+5 | These Hebrew words on Yale's seal refer to objects in the high priest's breastplate. | Urim and Thummim | Urim v'Thummim; Urim ve-Thummim | https://news.yale.edu/2025/03/21/objects-represent-tradition-and-welcome-new-generation-leadership
+5 | "The Whiffenpoof Song" lyrics were adapted from this Rudyard Kipling poem. | Gentlemen-Rankers | Gentlemen Rankers | https://en.wikipedia.org/wiki/Whiffenpoofs
+
+## Presidents & Schools
+1 | Taking office in 2024, she is Yale's 24th president and its first woman president on a permanent basis. | Maurie McInnis | McInnis | https://nbcchicago.com/news/business/money-report/for-the-first-time-in-323-years-yale-has-elected-a-woman-as-its-permanent-president/3450769
+2 | This Yale president from 1978 to 1986 later became commissioner of Major League Baseball. | A. Bartlett Giamatti | Bart Giamatti; Giamatti | https://www.mlb.com/official-information/commissioners/giamatti
+2 | Founded in 1824, this Yale school is consistently ranked as the nation's preeminent one in its field. | Yale Law School | Law School; YLS | https://www.yale.edu/about-yale/traditions-history
+2 | A $150 million gift from David Geffen in 2021 made this school tuition-free. | David Geffen School of Drama | School of Drama; Yale Drama; Geffen School of Drama | https://www.yale.edu/about-yale/traditions-history
+2 | Founded in 1976, it offers the MBA and many joint degrees. | Yale School of Management | SOM; School of Management | https://www.yale.edu/about-yale/traditions-history
+3 | A psychologist, he served as Yale's 23rd president starting in 2013. | Peter Salovey | Salovey | https://news.yale.edu/2012/11/08/yale-provost-peter-salovey-be-university-s-next-president
+3 | This economist led Yale from 1993 to 2013, the longest-serving sitting Ivy League president at the time. | Richard Levin | Rick Levin; Levin | https://news.yale.edu/2012/08/30/levin-step-down-yale-president-end-academic-year
+3 | Founded in 1900 with Pinchot family funds, Yale's forestry school is now known by this name. | Yale School of the Environment | School of the Environment; YSE | https://www.yale.edu/about-yale/traditions-history
+3 | Yale is made up of this many schools. | 15 | fifteen | https://www.yale.edu/about-yale/yale-facts
+3 | Paul Mellon's gift created this Louis Kahn-designed center, which opened in 1977. | Yale Center for British Art | YCBA; Center for British Art | https://www.yale.edu/about-yale/traditions-history
+4 | This Yale president committed to 1969 as the year women would enter Yale College. | Kingman Brewster | Brewster | https://guides.library.yale.edu/c.php?g=871411&p=6256097
+4 | Founded in 1923, it was the first nursing school independent of hospital control within a university. | Yale School of Nursing | School of Nursing; YSN | https://www.yale.edu/about-yale/traditions-history
+4 | George Parmly Day founded this Yale publishing house in 1908. | Yale University Press | Yale Press | https://www.publishersweekly.com/pw/print/20080630/10941-yale-university-press-at-100.html
+5 | This Yale president from 1778 to 1795 required freshmen to study Hebrew and put the Hebrew phrase on the seal. | Ezra Stiles | Stiles | https://en.wikipedia.org/wiki/Yale_University
+5 | Acting president of Yale in 1977-78, this historian then led the University of Chicago for 15 years. | Hanna Holborn Gray | Hanna Gray | https://en.wikipedia.org/wiki/Hanna_Holborn_Gray
+
+## FINAL: Campus Landmarks
+3 | It's the only Yale building surviving from the colonial era, and a statue of its most famous resident, a patriot spy, stands outside. | Connecticut Hall | Conn Hall | https://en.wikipedia.org/wiki/Connecticut_Hall
+
+## FINAL: Yale Songbook
+3 | Yale's bulldog mascot inspired this alumnus to write "Bulldog," long before he wrote "Night and Day." | Cole Porter | Porter | https://www.britannica.com/biography/Cole-Porter
+
+## FINAL: Gridiron Legacy
+3 | This 1914 Yale structure lent its name to a whole family of college football postseason games. | Yale Bowl | the Bowl | https://en.wikipedia.org/wiki/Yale_Bowl
+
+## FINAL: Founding Documents
+3 | Four Yale graduates signed this document, including Lyman Hall and Oliver Wolcott. | Declaration of Independence | the Declaration | https://www.yale.edu/about-yale/traditions-history

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00356b"><title>Host · Yale Jeopardy</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="host-page">
+  <div class="host-head">
+    <span class="crest-sm" style="width:36px;height:36px;border-radius:10px;background:var(--paper);color:var(--blue);display:grid;place-items:center;font:800 22px var(--serif)">Y</span>
+    <span class="title" id="title">Loading…</span>
+    <span class="pill" id="mode"></span>
+    <div class="codebox" id="codebox">Join at <span id="url"></span><b id="code"></b></div>
+  </div>
+
+  <section id="v-lobby" class="lobby hidden">
+    <div>
+      <p class="eyebrow">Join on your phone</p>
+      <p style="font-size:22px;margin:6px 0 10px">Go to <b class="kbd" id="url2"></b> and enter</p>
+      <div class="bigcode" id="code2"></div>
+      <div class="roster" id="roster"></div>
+      <p class="muted" id="count">Waiting for players…</p>
+      <button class="btn gold big" id="start">Start the game</button>
+    </div>
+  </section>
+
+  <section id="v-main" class="host-main hidden">
+    <div class="stage">
+      <div class="board" id="board"></div>
+      <div class="bigclue hidden" id="clue">
+        <div class="ct"><span id="c-cat"></span><span id="c-val"></span></div>
+        <div class="txt" id="c-txt"></div>
+        <div class="timer" id="c-timerwrap"><div id="c-bar"></div></div>
+        <p class="status" id="c-status"></p>
+        <div id="reveal" class="hidden">
+          <div class="ans" id="r-ans"></div>
+          <div class="quote" id="r-quote" style="max-width:820px;margin:0 auto"></div>
+          <div class="meterbar" id="r-meter"><i></i><span></span></div>
+          <p class="shield hidden" id="r-shield"></p>
+          <ul class="results" id="r-list"></ul>
+        </div>
+      </div>
+      <div class="controls" id="ctl"></div>
+    </div>
+    <aside class="lb"><h4>Leaderboard</h4><ol id="lb"></ol><p class="muted" id="players"></p></aside>
+  </section>
+
+  <section id="v-over" class="hidden">
+    <div class="page" style="padding-top:0">
+      <h2 class="h">That's the game!</h2>
+      <div class="stats" id="o-stats"></div>
+      <div class="grid2">
+        <div class="tile"><h3>Reteach list</h3><p class="muted" style="flex:0">The clues your class found hardest, with the source line to revisit.</p><ul class="reteach" id="o-reteach"></ul></div>
+        <div class="tile">
+          <h3>1-minute feedback</h3>
+          <form class="fb" id="fb">
+            <label class="field">You are <select name="role_title"><option>Professor</option><option>TA</option><option>Instructor</option><option>Other</option></select></label>
+            <label class="field">Without this tool, how many minutes would making a review game like this take you?
+              <input name="manual_minutes" type="number" min="0" max="1000" inputmode="numeric" placeholder="e.g. 60" required></label>
+            <div class="field">How useful was this for your class? <div class="likert" data-name="usefulness"></div></div>
+            <div class="field">How accurate were the clues? <div class="likert" data-name="accuracy"></div></div>
+            <label class="field">Did the reteach list match what students actually struggle with?
+              <select name="reteach_matches"><option value="yes">Yes</option><option value="partly">Partly</option><option value="no">No</option></select></label>
+            <label class="field">Would you use it again? <select name="use_again"><option value="yes">Yes</option><option value="maybe">Maybe</option><option value="no">No</option></select></label>
+            <label class="field">Anything else? <textarea name="comment" maxlength="1000" style="min-height:70px"></textarea></label>
+            <button class="btn gold">Send feedback</button>
+          </form>
+        </div>
+      </div>
+      <div class="controls" style="margin-top:16px">
+        <a class="btn ghost" id="o-report">Full session report</a><a class="btn ghost" href="/evidence">Evidence across all sessions</a>
+        <a class="btn ghost" href="/teach">Make another board</a></div>
+    </div>
+  </section>
+</div>
+<script src="/static/common.js"></script>
+<script src="/static/loader.js"></script>
+<script src="/static/anim.js"></script>
+<script src="/static/host.js"></script>
+</body></html>

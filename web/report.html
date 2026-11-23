@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00356b"><title>Session report · Yale Jeopardy</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="page">
+  <div class="topbar no-print"><a class="brand" href="/"><span class="crest-sm">Y</span>Yale Jeopardy</a>
+    <nav><a href="/teach">Teach</a><a href="/evidence">Evidence</a><a href="#" id="print">Print / PDF</a></nav></div>
+  <p class="eyebrow">Session report</p>
+  <h2 class="h" id="title">Loading…</h2>
+  <p class="sub" id="meta"></p>
+  <div class="stats" id="stats"></div>
+  <div class="grid2">
+    <div class="tile"><h3>Reteach list</h3><ul class="reteach" id="reteach"></ul></div>
+    <div class="tile"><h3>How the board was built</h3><div id="build"></div></div>
+  </div>
+  <div class="tile" style="margin-top:14px"><h3>Every clue</h3><div style="overflow:auto"><table class="t" id="clues"></table></div></div>
+  <div class="tile" style="margin-top:14px"><h3>Students</h3><table class="t" id="students"></table>
+    <p class="muted">Names are whatever students typed when joining. This table stays in this browser's report; the public evidence page never shows names.</p></div>
+  <div class="tile" style="margin-top:14px"><h3>Feedback</h3><div id="fb"></div></div>
+</div>
+<script src="/static/common.js"></script>
+<script src="/static/report.js"></script>
+</body></html>

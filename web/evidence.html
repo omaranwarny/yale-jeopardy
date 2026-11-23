@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00356b"><title>Evidence · Yale Jeopardy Classroom Edition</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/class.css">
+</head><body>
+<div class="page">
+  <div class="topbar no-print"><a class="brand" href="/"><span class="crest-sm">Y</span>Yale Jeopardy</a>
+    <nav><a href="/teach">Teach</a><a href="#" id="print">Print / PDF</a><a href="/api/evidence" id="raw">Raw JSON</a></nav></div>
+  <p class="eyebrow">Trial evidence · all sessions on this server · anonymous</p>
+  <h2 class="h">Does it actually help teachers?</h2>
+  <p class="sub" id="asof"></p>
+
+  <div class="tile"><h3>1. Building a review game</h3><div class="stats" id="e-build"></div><p class="muted" id="e-build-note"></p></div>
+  <div class="tile" style="margin-top:14px"><h3>2. Clue quality (grounding &amp; fact-checking)</h3><div class="stats" id="e-quality"></div></div>
+  <div class="tile" style="margin-top:14px"><h3>3. In class</h3><div class="stats" id="e-class"></div><ul class="reteach" id="e-reteach"></ul></div>
+  <div class="tile" style="margin-top:14px"><h3>4. What teachers and students said</h3><div class="stats" id="e-fb"></div><div id="e-comments"></div></div>
+
+  <div class="tile" style="margin-top:14px">
+    <h3>5. What it would cost a whole school</h3>
+    <p class="muted" style="flex:0">Uses the measured medians above; where there is no data yet, the starred defaults are used and marked.</p>
+    <div class="opts">
+      <label class="field">Courses using it <input id="p-courses" type="number" value="40" min="1"></label>
+      <label class="field">Review games per course / semester <input id="p-games" type="number" value="4" min="1"></label>
+      <label class="field">Students per game <input id="p-students" type="number" value="45" min="1"></label>
+      <label class="field">TA / instructor cost per hour ($) <input id="p-rate" type="number" value="35" min="0"></label>
+    </div>
+    <div class="stats" id="p-out"></div>
+    <p class="muted" id="p-note"></p>
+  </div>
+</div>
+<script src="/static/common.js"></script>
+<script src="/static/evidence.js"></script>
+</body></html>
